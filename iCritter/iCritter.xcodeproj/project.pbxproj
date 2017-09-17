@@ -1,0 +1,1912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iCritterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iCritterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		5F289DAE101E37560025E23F /* LogicTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F289DAD101E37560025E23F /* LogicTests.mm */; };
+		5F344DCE13DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC613DB6F5D003591B7 /* AWGL1Renderer.cpp */; };
+		5F344DCF13DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC613DB6F5D003591B7 /* AWGL1Renderer.cpp */; };
+		5F344DD013DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC613DB6F5D003591B7 /* AWGL1Renderer.cpp */; };
+		5F344DD113DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC613DB6F5D003591B7 /* AWGL1Renderer.cpp */; };
+		5F344DD213DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC813DB6F5D003591B7 /* AWGL1RenderState.cpp */; };
+		5F344DD313DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC813DB6F5D003591B7 /* AWGL1RenderState.cpp */; };
+		5F344DD413DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC813DB6F5D003591B7 /* AWGL1RenderState.cpp */; };
+		5F344DD513DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DC813DB6F5D003591B7 /* AWGL1RenderState.cpp */; };
+		5F344DD613DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCA13DB6F5D003591B7 /* AWGL2Renderer.cpp */; };
+		5F344DD713DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCA13DB6F5D003591B7 /* AWGL2Renderer.cpp */; };
+		5F344DD813DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCA13DB6F5D003591B7 /* AWGL2Renderer.cpp */; };
+		5F344DD913DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCA13DB6F5D003591B7 /* AWGL2Renderer.cpp */; };
+		5F344DDA13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCC13DB6F5D003591B7 /* AWGL2RenderState.cpp */; };
+		5F344DDB13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCC13DB6F5D003591B7 /* AWGL2RenderState.cpp */; };
+		5F344DDC13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCC13DB6F5D003591B7 /* AWGL2RenderState.cpp */; };
+		5F344DDD13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F344DCC13DB6F5D003591B7 /* AWGL2RenderState.cpp */; };
+		5F3A16B8104E854C00BC9DCB /* AWAnimatedFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A41011189800A10E13 /* AWAnimatedFloat.cpp */; };
+		5F3A16B9104E854F00BC9DCB /* AWAnimatedFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A41011189800A10E13 /* AWAnimatedFloat.cpp */; };
+		5F3A16BA104E857900BC9DCB /* AWAnimatedPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A61011189800A10E13 /* AWAnimatedPoint.cpp */; };
+		5F3A16BB104E857900BC9DCB /* AWAnimatedQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A81011189800A10E13 /* AWAnimatedQuat.cpp */; };
+		5F3A16BC104E857900BC9DCB /* AWAnimatedTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AA1011189800A10E13 /* AWAnimatedTexture.cpp */; };
+		5F3A16BD104E857900BC9DCB /* AWBillboardController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AC1011189800A10E13 /* AWBillboardController.cpp */; };
+		5F3A16BE104E857A00BC9DCB /* AWAnimatedPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A61011189800A10E13 /* AWAnimatedPoint.cpp */; };
+		5F3A16BF104E857A00BC9DCB /* AWAnimatedQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A81011189800A10E13 /* AWAnimatedQuat.cpp */; };
+		5F3A16C0104E857A00BC9DCB /* AWAnimatedTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AA1011189800A10E13 /* AWAnimatedTexture.cpp */; };
+		5F3A16C1104E857A00BC9DCB /* AWBillboardController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AC1011189800A10E13 /* AWBillboardController.cpp */; };
+		5F3A16C2104E859B00BC9DCB /* AWBoidController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AE1011189800A10E13 /* AWBoidController.cpp */; };
+		5F3A16C3104E859B00BC9DCB /* AWBumpMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B01011189800A10E13 /* AWBumpMesh.cpp */; };
+		5F3A16C4104E859B00BC9DCB /* AWCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B21011189800A10E13 /* AWCamera.cpp */; };
+		5F3A16C5104E859B00BC9DCB /* AWEffectMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B81011189800A10E13 /* AWEffectMgr.cpp */; };
+		5F3A16C6104E859B00BC9DCB /* AWEnvironController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BA1011189800A10E13 /* AWEnvironController.cpp */; };
+		5F3A16C7104E859B00BC9DCB /* AWFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BC1011189800A10E13 /* AWFace.cpp */; };
+		5F3A16C8104E859B00BC9DCB /* AWFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BE1011189800A10E13 /* AWFactory.cpp */; };
+		5F3A16C9104E859B00BC9DCB /* AWFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C01011189800A10E13 /* AWFile.cpp */; };
+		5F3A16CA104E859B00BC9DCB /* AWFlightController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C21011189800A10E13 /* AWFlightController.cpp */; };
+		5F3A16CB104E859B00BC9DCB /* AWFlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C41011189800A10E13 /* AWFlock.cpp */; };
+		5F3A16CC104E859B00BC9DCB /* AWFog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C61011189800A10E13 /* AWFog.cpp */; };
+		5F3A16CD104E859B00BC9DCB /* AWGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C81011189800A10E13 /* AWGLRenderer.cpp */; };
+		5F3A16CE104E859B00BC9DCB /* AWImageProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CA1011189800A10E13 /* AWImageProcessor.cpp */; };
+		5F3A16CF104E859B00BC9DCB /* AWLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CC1011189800A10E13 /* AWLight.cpp */; };
+		5F3A16D0104E859B00BC9DCB /* AWMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CF1011189800A10E13 /* AWMaterial.cpp */; };
+		5F3A16D1104E859B00BC9DCB /* AWMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D21011189800A10E13 /* AWMatrix4.cpp */; };
+		5F3A16D2104E859B00BC9DCB /* AWMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D41011189800A10E13 /* AWMesh.cpp */; };
+		5F3A16D3104E859C00BC9DCB /* AWBoidController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AE1011189800A10E13 /* AWBoidController.cpp */; };
+		5F3A16D4104E859C00BC9DCB /* AWBumpMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B01011189800A10E13 /* AWBumpMesh.cpp */; };
+		5F3A16D5104E859C00BC9DCB /* AWCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B21011189800A10E13 /* AWCamera.cpp */; };
+		5F3A16D6104E859C00BC9DCB /* AWEffectMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B81011189800A10E13 /* AWEffectMgr.cpp */; };
+		5F3A16D7104E859C00BC9DCB /* AWEnvironController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BA1011189800A10E13 /* AWEnvironController.cpp */; };
+		5F3A16D8104E859C00BC9DCB /* AWFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BC1011189800A10E13 /* AWFace.cpp */; };
+		5F3A16D9104E859C00BC9DCB /* AWFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BE1011189800A10E13 /* AWFactory.cpp */; };
+		5F3A16DA104E859C00BC9DCB /* AWFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C01011189800A10E13 /* AWFile.cpp */; };
+		5F3A16DB104E859C00BC9DCB /* AWFlightController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C21011189800A10E13 /* AWFlightController.cpp */; };
+		5F3A16DC104E859C00BC9DCB /* AWFlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C41011189800A10E13 /* AWFlock.cpp */; };
+		5F3A16DD104E859C00BC9DCB /* AWFog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C61011189800A10E13 /* AWFog.cpp */; };
+		5F3A16DE104E859C00BC9DCB /* AWGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C81011189800A10E13 /* AWGLRenderer.cpp */; };
+		5F3A16DF104E859C00BC9DCB /* AWImageProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CA1011189800A10E13 /* AWImageProcessor.cpp */; };
+		5F3A16E0104E859C00BC9DCB /* AWLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CC1011189800A10E13 /* AWLight.cpp */; };
+		5F3A16E1104E859C00BC9DCB /* AWMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CF1011189800A10E13 /* AWMaterial.cpp */; };
+		5F3A16E2104E859C00BC9DCB /* AWMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D21011189800A10E13 /* AWMatrix4.cpp */; };
+		5F3A16E3104E859C00BC9DCB /* AWMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D41011189800A10E13 /* AWMesh.cpp */; };
+		5F3A16E4104E85C200BC9DCB /* AWNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D61011189800A10E13 /* AWNode.cpp */; };
+		5F3A16E5104E85C200BC9DCB /* AWNormalMapTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D81011189800A10E13 /* AWNormalMapTexture.cpp */; };
+		5F3A16E6104E85C200BC9DCB /* AWObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DA1011189800A10E13 /* AWObject.cpp */; };
+		5F3A16E7104E85C200BC9DCB /* AWPerfCnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DD1011189800A10E13 /* AWPerfCnt.cpp */; };
+		5F3A16E8104E85C200BC9DCB /* AWPersistable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DF1011189800A10E13 /* AWPersistable.cpp */; };
+		5F3A16E9104E85C200BC9DCB /* AWPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E11011189800A10E13 /* AWPoint.cpp */; };
+		5F3A16EA104E85C200BC9DCB /* AWPositionKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E31011189800A10E13 /* AWPositionKey.cpp */; };
+		5F3A16EB104E85C200BC9DCB /* AWQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E61011189800A10E13 /* AWQuat.cpp */; };
+		5F3A16EC104E85C200BC9DCB /* AWRenderPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E81011189800A10E13 /* AWRenderPass.cpp */; };
+		5F3A16ED104E85C200BC9DCB /* AWRenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EA1011189800A10E13 /* AWRenderState.cpp */; };
+		5F3A16EE104E85C200BC9DCB /* AWRocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EC1011189800A10E13 /* AWRocket.cpp */; };
+		5F3A16EF104E85C200BC9DCB /* AWRotationKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EE1011189800A10E13 /* AWRotationKey.cpp */; };
+		5F3A16F0104E85C200BC9DCB /* AWScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F01011189800A10E13 /* AWScene.cpp */; };
+		5F3A16F1104E85C200BC9DCB /* AWSea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F21011189800A10E13 /* AWSea.cpp */; };
+		5F3A16F2104E85C200BC9DCB /* AWPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F41011189800A10E13 /* AWPlayer.cpp */; };
+		5F3A16F3104E85C200BC9DCB /* AWStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F71011189800A10E13 /* AWStore.cpp */; };
+		5F3A16F4104E85C200BC9DCB /* AWTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F91011189800A10E13 /* AWTexture.cpp */; };
+		5F3A16F5104E85C200BC9DCB /* AWTextureEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FB1011189800A10E13 /* AWTextureEffect.cpp */; };
+		5F3A16F6104E85C200BC9DCB /* AWTextureUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FD1011189800A10E13 /* AWTextureUnit.cpp */; };
+		5F3A16F7104E85C200BC9DCB /* AWTimerBarCtl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FF1011189800A10E13 /* AWTimerBarCtl.cpp */; };
+		5F3A16F8104E85C200BC9DCB /* AWTransformController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229031011189800A10E13 /* AWTransformController.cpp */; };
+		5F3A16F9104E85C200BC9DCB /* AWTVertexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229061011189800A10E13 /* AWTVertexList.cpp */; };
+		5F3A16FA104E85C200BC9DCB /* AWWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F82290A1011189800A10E13 /* AWWorker.cpp */; };
+		5F3A16FB104E85C300BC9DCB /* AWNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D61011189800A10E13 /* AWNode.cpp */; };
+		5F3A16FC104E85C300BC9DCB /* AWNormalMapTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D81011189800A10E13 /* AWNormalMapTexture.cpp */; };
+		5F3A16FD104E85C300BC9DCB /* AWObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DA1011189800A10E13 /* AWObject.cpp */; };
+		5F3A16FE104E85C300BC9DCB /* AWPerfCnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DD1011189800A10E13 /* AWPerfCnt.cpp */; };
+		5F3A16FF104E85C300BC9DCB /* AWPersistable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DF1011189800A10E13 /* AWPersistable.cpp */; };
+		5F3A1700104E85C300BC9DCB /* AWPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E11011189800A10E13 /* AWPoint.cpp */; };
+		5F3A1701104E85C300BC9DCB /* AWPositionKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E31011189800A10E13 /* AWPositionKey.cpp */; };
+		5F3A1702104E85C300BC9DCB /* AWQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E61011189800A10E13 /* AWQuat.cpp */; };
+		5F3A1703104E85C300BC9DCB /* AWRenderPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E81011189800A10E13 /* AWRenderPass.cpp */; };
+		5F3A1704104E85C300BC9DCB /* AWRenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EA1011189800A10E13 /* AWRenderState.cpp */; };
+		5F3A1705104E85C300BC9DCB /* AWRocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EC1011189800A10E13 /* AWRocket.cpp */; };
+		5F3A1706104E85C300BC9DCB /* AWRotationKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EE1011189800A10E13 /* AWRotationKey.cpp */; };
+		5F3A1707104E85C300BC9DCB /* AWScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F01011189800A10E13 /* AWScene.cpp */; };
+		5F3A1708104E85C300BC9DCB /* AWSea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F21011189800A10E13 /* AWSea.cpp */; };
+		5F3A1709104E85C300BC9DCB /* AWPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F41011189800A10E13 /* AWPlayer.cpp */; };
+		5F3A170A104E85C300BC9DCB /* AWStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F71011189800A10E13 /* AWStore.cpp */; };
+		5F3A170B104E85C300BC9DCB /* AWTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F91011189800A10E13 /* AWTexture.cpp */; };
+		5F3A170C104E85C300BC9DCB /* AWTextureEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FB1011189800A10E13 /* AWTextureEffect.cpp */; };
+		5F3A170D104E85C300BC9DCB /* AWTextureUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FD1011189800A10E13 /* AWTextureUnit.cpp */; };
+		5F3A170E104E85C300BC9DCB /* AWTimerBarCtl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FF1011189800A10E13 /* AWTimerBarCtl.cpp */; };
+		5F3A170F104E85C300BC9DCB /* AWTransformController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229031011189800A10E13 /* AWTransformController.cpp */; };
+		5F3A1710104E85C300BC9DCB /* AWTVertexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229061011189800A10E13 /* AWTVertexList.cpp */; };
+		5F3A1711104E85C300BC9DCB /* AWWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F82290A1011189800A10E13 /* AWWorker.cpp */; };
+		5F3A17DE104E860900BC9DCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F822A321011201E00A10E13 /* QuartzCore.framework */; };
+		5F3A17DF104E860900BC9DCB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F82283B101117A800A10E13 /* OpenGLES.framework */; };
+		5F3A17E0104E860900BC9DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		5F3A17E1104E860900BC9DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		5F3A17E2104E860900BC9DCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		5F3A17E3104E860A00BC9DCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F822A321011201E00A10E13 /* QuartzCore.framework */; };
+		5F3A17E4104E860A00BC9DCB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F82283B101117A800A10E13 /* OpenGLES.framework */; };
+		5F3A17E5104E860A00BC9DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		5F3A17E6104E860A00BC9DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		5F3A17E7104E860A00BC9DCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		5F4D467211B1B69C00E0670A /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4D467111B1B69C00E0670A /* MainWindow-iPad.xib */; };
+		5F620CAB167933DC00C518F1 /* ES1dot1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5FC341EB1616577C00C430C6 /* ES1dot1.vsh */; };
+		5F79001E167D0D5A00987B01 /* DiscardShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5F79001C167D06CA00987B01 /* DiscardShader.fsh */; };
+		5F816641104EA3CD00A85620 /* kmatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F816640104EA3CD00A85620 /* kmatrix.cpp */; };
+		5F816642104EA3CD00A85620 /* kmatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F816640104EA3CD00A85620 /* kmatrix.cpp */; };
+		5F8227EF101112F700A10E13 /* iCritterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8227EE101112F700A10E13 /* iCritterViewController.m */; };
+		5F82283A1011178600A10E13 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228391011178600A10E13 /* EAGLView.mm */; };
+		5F82283C101117A800A10E13 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F82283B101117A800A10E13 /* OpenGLES.framework */; };
+		5F822846101117DF00A10E13 /* AWDownloader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F82283F101117DF00A10E13 /* AWDownloader.mm */; };
+		5F822847101117DF00A10E13 /* AWRemoteSceneInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F822841101117DF00A10E13 /* AWRemoteSceneInfo.mm */; };
+		5F822848101117DF00A10E13 /* AWSceneInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F822843101117DF00A10E13 /* AWSceneInfo.mm */; };
+		5F822849101117DF00A10E13 /* AWSceneMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F822845101117DF00A10E13 /* AWSceneMgr.mm */; };
+		5F8228641011182200A10E13 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284B1011182200A10E13 /* adler32.c */; };
+		5F8228651011182200A10E13 /* AWMinigzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284C1011182200A10E13 /* AWMinigzip.cpp */; };
+		5F8228661011182200A10E13 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284D1011182200A10E13 /* compress.c */; };
+		5F8228671011182200A10E13 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284E1011182200A10E13 /* crc32.c */; };
+		5F8228681011182200A10E13 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228501011182200A10E13 /* deflate.c */; };
+		5F8228691011182200A10E13 /* gzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228521011182200A10E13 /* gzio.c */; };
+		5F82286A1011182200A10E13 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228531011182200A10E13 /* infback.c */; };
+		5F82286B1011182200A10E13 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228541011182200A10E13 /* inffast.c */; };
+		5F82286C1011182200A10E13 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228571011182200A10E13 /* inflate.c */; };
+		5F82286D1011182200A10E13 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228591011182200A10E13 /* inftrees.c */; };
+		5F82286E1011182200A10E13 /* minigzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82285B1011182200A10E13 /* minigzip.c */; };
+		5F82286F1011182200A10E13 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82285C1011182200A10E13 /* trees.c */; };
+		5F8228701011182200A10E13 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82285E1011182200A10E13 /* uncompr.c */; };
+		5F8228711011182200A10E13 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228621011182200A10E13 /* zutil.c */; };
+		5F82290C1011189800A10E13 /* AWAnimatedFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A41011189800A10E13 /* AWAnimatedFloat.cpp */; };
+		5F82290D1011189800A10E13 /* AWAnimatedPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A61011189800A10E13 /* AWAnimatedPoint.cpp */; };
+		5F82290E1011189800A10E13 /* AWAnimatedQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A81011189800A10E13 /* AWAnimatedQuat.cpp */; };
+		5F82290F1011189800A10E13 /* AWAnimatedTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AA1011189800A10E13 /* AWAnimatedTexture.cpp */; };
+		5F8229101011189800A10E13 /* AWBillboardController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AC1011189800A10E13 /* AWBillboardController.cpp */; };
+		5F8229111011189800A10E13 /* AWBoidController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AE1011189800A10E13 /* AWBoidController.cpp */; };
+		5F8229121011189800A10E13 /* AWBumpMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B01011189800A10E13 /* AWBumpMesh.cpp */; };
+		5F8229131011189800A10E13 /* AWCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B21011189800A10E13 /* AWCamera.cpp */; };
+		5F8229151011189800A10E13 /* AWEffectMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B81011189800A10E13 /* AWEffectMgr.cpp */; };
+		5F8229161011189800A10E13 /* AWEnvironController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BA1011189800A10E13 /* AWEnvironController.cpp */; };
+		5F8229171011189800A10E13 /* AWFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BC1011189800A10E13 /* AWFace.cpp */; };
+		5F8229181011189800A10E13 /* AWFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BE1011189800A10E13 /* AWFactory.cpp */; };
+		5F8229191011189800A10E13 /* AWFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C01011189800A10E13 /* AWFile.cpp */; };
+		5F82291A1011189800A10E13 /* AWFlightController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C21011189800A10E13 /* AWFlightController.cpp */; };
+		5F82291B1011189800A10E13 /* AWFlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C41011189800A10E13 /* AWFlock.cpp */; };
+		5F82291C1011189800A10E13 /* AWFog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C61011189800A10E13 /* AWFog.cpp */; };
+		5F82291D1011189800A10E13 /* AWGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C81011189800A10E13 /* AWGLRenderer.cpp */; };
+		5F82291E1011189800A10E13 /* AWImageProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CA1011189800A10E13 /* AWImageProcessor.cpp */; };
+		5F82291F1011189800A10E13 /* AWLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CC1011189800A10E13 /* AWLight.cpp */; };
+		5F8229201011189800A10E13 /* AWMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CF1011189800A10E13 /* AWMaterial.cpp */; };
+		5F8229211011189800A10E13 /* AWMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D21011189800A10E13 /* AWMatrix4.cpp */; };
+		5F8229221011189800A10E13 /* AWMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D41011189800A10E13 /* AWMesh.cpp */; };
+		5F8229231011189800A10E13 /* AWNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D61011189800A10E13 /* AWNode.cpp */; };
+		5F8229241011189800A10E13 /* AWNormalMapTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D81011189800A10E13 /* AWNormalMapTexture.cpp */; };
+		5F8229251011189800A10E13 /* AWObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DA1011189800A10E13 /* AWObject.cpp */; };
+		5F8229261011189800A10E13 /* AWPerfCnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DD1011189800A10E13 /* AWPerfCnt.cpp */; };
+		5F8229271011189800A10E13 /* AWPersistable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DF1011189800A10E13 /* AWPersistable.cpp */; };
+		5F8229281011189800A10E13 /* AWPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E11011189800A10E13 /* AWPoint.cpp */; };
+		5F8229291011189800A10E13 /* AWPositionKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E31011189800A10E13 /* AWPositionKey.cpp */; };
+		5F82292A1011189800A10E13 /* AWQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E61011189800A10E13 /* AWQuat.cpp */; };
+		5F82292B1011189800A10E13 /* AWRenderPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E81011189800A10E13 /* AWRenderPass.cpp */; };
+		5F82292C1011189800A10E13 /* AWRenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EA1011189800A10E13 /* AWRenderState.cpp */; };
+		5F82292D1011189800A10E13 /* AWRocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EC1011189800A10E13 /* AWRocket.cpp */; };
+		5F82292E1011189800A10E13 /* AWRotationKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EE1011189800A10E13 /* AWRotationKey.cpp */; };
+		5F82292F1011189800A10E13 /* AWScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F01011189800A10E13 /* AWScene.cpp */; };
+		5F8229301011189800A10E13 /* AWSea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F21011189800A10E13 /* AWSea.cpp */; };
+		5F8229311011189800A10E13 /* AWPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F41011189800A10E13 /* AWPlayer.cpp */; };
+		5F8229321011189800A10E13 /* AWStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F71011189800A10E13 /* AWStore.cpp */; };
+		5F8229331011189800A10E13 /* AWTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F91011189800A10E13 /* AWTexture.cpp */; };
+		5F8229341011189800A10E13 /* AWTextureEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FB1011189800A10E13 /* AWTextureEffect.cpp */; };
+		5F8229351011189800A10E13 /* AWTextureUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FD1011189800A10E13 /* AWTextureUnit.cpp */; };
+		5F8229361011189800A10E13 /* AWTimerBarCtl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FF1011189800A10E13 /* AWTimerBarCtl.cpp */; };
+		5F8229371011189800A10E13 /* AWTransformController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229031011189800A10E13 /* AWTransformController.cpp */; };
+		5F8229381011189800A10E13 /* AWTVertexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229061011189800A10E13 /* AWTVertexList.cpp */; };
+		5F82293A1011189800A10E13 /* AWWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F82290A1011189800A10E13 /* AWWorker.cpp */; };
+		5F822A331011201E00A10E13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F822A321011201E00A10E13 /* QuartzCore.framework */; };
+		5F822A421011210600A10E13 /* LocalScenesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A391011210600A10E13 /* LocalScenesController.m */; };
+		5F822A431011210600A10E13 /* RemoteScenesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A3B1011210600A10E13 /* RemoteScenesController.m */; };
+		5F822A441011210600A10E13 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A3D1011210600A10E13 /* RootViewController.m */; };
+		5F822A461011210600A10E13 /* SceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A411011210600A10E13 /* SceneViewController.m */; };
+		5F822AB310120CF800A10E13 /* iCritter.tnt in Resources */ = {isa = PBXBuildFile; fileRef = 5F822AB210120CF800A10E13 /* iCritter.tnt */; };
+		5F822AED1012109800A10E13 /* iCritter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F822AEC1012109800A10E13 /* iCritter.png */; };
+		5F93811111EA37E400ED0443 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F93811011EA37E400ED0443 /* ES1Renderer.mm */; };
+		5F93811211EA37E400ED0443 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F93811011EA37E400ED0443 /* ES1Renderer.mm */; };
+		5F93811311EA37E400ED0443 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F93811011EA37E400ED0443 /* ES1Renderer.mm */; };
+		5F93811411EA37E400ED0443 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F93811011EA37E400ED0443 /* ES1Renderer.mm */; };
+		5FA6BD7911F8DC5700D56488 /* AWVertexProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BD7711F8DC5700D56488 /* AWVertexProgram.cpp */; };
+		5FA6BD7A11F8DC5700D56488 /* AWVertexProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BD7711F8DC5700D56488 /* AWVertexProgram.cpp */; };
+		5FA6BD7B11F8DC5700D56488 /* AWVertexProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BD7711F8DC5700D56488 /* AWVertexProgram.cpp */; };
+		5FA6BD7C11F8DC5700D56488 /* AWVertexProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BD7711F8DC5700D56488 /* AWVertexProgram.cpp */; };
+		5FA6BE8611F8E80100D56488 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6BE6911F8E61800D56488 /* Shader.fsh */; };
+		5FA6BE8711F8E80700D56488 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6BE6A11F8E61800D56488 /* Shader.vsh */; };
+		5FA6BEAA11F8EB0C00D56488 /* ES2Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BEA911F8EB0C00D56488 /* ES2Renderer.mm */; };
+		5FA6BEAB11F8EB0C00D56488 /* ES2Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BEA911F8EB0C00D56488 /* ES2Renderer.mm */; };
+		5FA6BEAC11F8EB0C00D56488 /* ES2Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BEA911F8EB0C00D56488 /* ES2Renderer.mm */; };
+		5FA6BEAD11F8EB0C00D56488 /* ES2Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BEA911F8EB0C00D56488 /* ES2Renderer.mm */; };
+		5FAA06301013670E006AD7A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FAA062F1013670E006AD7A0 /* Default.png */; };
+		5FACD2EB11EE4CCF00D5A22D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FACD2EA11EE4CCF00D5A22D /* CoreMotion.framework */; };
+		5FB8E991166A7B6C00B5F95F /* AWPoint4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8E990166A7B6C00B5F95F /* AWPoint4.cpp */; };
+		5FD602161027918B00FA1598 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		5FD602171027918B00FA1598 /* iCritter.tnt in Resources */ = {isa = PBXBuildFile; fileRef = 5F822AB210120CF800A10E13 /* iCritter.tnt */; };
+		5FD602181027918B00FA1598 /* iCritter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F822AEC1012109800A10E13 /* iCritter.png */; };
+		5FD602191027918B00FA1598 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FAA062F1013670E006AD7A0 /* Default.png */; };
+		5FD6021C1027918B00FA1598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		5FD6021D1027918B00FA1598 /* iCritterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iCritterAppDelegate.m */; };
+		5FD6021E1027918B00FA1598 /* iCritterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8227EE101112F700A10E13 /* iCritterViewController.m */; };
+		5FD6021F1027918B00FA1598 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228391011178600A10E13 /* EAGLView.mm */; };
+		5FD602201027918B00FA1598 /* AWDownloader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F82283F101117DF00A10E13 /* AWDownloader.mm */; };
+		5FD602211027918B00FA1598 /* AWRemoteSceneInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F822841101117DF00A10E13 /* AWRemoteSceneInfo.mm */; };
+		5FD602221027918B00FA1598 /* AWSceneInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F822843101117DF00A10E13 /* AWSceneInfo.mm */; };
+		5FD602231027918B00FA1598 /* AWSceneMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F822845101117DF00A10E13 /* AWSceneMgr.mm */; };
+		5FD602241027918B00FA1598 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284B1011182200A10E13 /* adler32.c */; };
+		5FD602251027918B00FA1598 /* AWMinigzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284C1011182200A10E13 /* AWMinigzip.cpp */; };
+		5FD602261027918B00FA1598 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284D1011182200A10E13 /* compress.c */; };
+		5FD602271027918B00FA1598 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82284E1011182200A10E13 /* crc32.c */; };
+		5FD602281027918B00FA1598 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228501011182200A10E13 /* deflate.c */; };
+		5FD602291027918B00FA1598 /* gzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228521011182200A10E13 /* gzio.c */; };
+		5FD6022A1027918B00FA1598 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228531011182200A10E13 /* infback.c */; };
+		5FD6022B1027918B00FA1598 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228541011182200A10E13 /* inffast.c */; };
+		5FD6022C1027918B00FA1598 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228571011182200A10E13 /* inflate.c */; };
+		5FD6022D1027918B00FA1598 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228591011182200A10E13 /* inftrees.c */; };
+		5FD6022E1027918B00FA1598 /* minigzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82285B1011182200A10E13 /* minigzip.c */; };
+		5FD6022F1027918B00FA1598 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82285C1011182200A10E13 /* trees.c */; };
+		5FD602301027918B00FA1598 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F82285E1011182200A10E13 /* uncompr.c */; };
+		5FD602311027918B00FA1598 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228621011182200A10E13 /* zutil.c */; };
+		5FD602321027918B00FA1598 /* AWAnimatedFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A41011189800A10E13 /* AWAnimatedFloat.cpp */; };
+		5FD602331027918B00FA1598 /* AWAnimatedPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A61011189800A10E13 /* AWAnimatedPoint.cpp */; };
+		5FD602341027918B00FA1598 /* AWAnimatedQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228A81011189800A10E13 /* AWAnimatedQuat.cpp */; };
+		5FD602351027918B00FA1598 /* AWAnimatedTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AA1011189800A10E13 /* AWAnimatedTexture.cpp */; };
+		5FD602361027918B00FA1598 /* AWBillboardController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AC1011189800A10E13 /* AWBillboardController.cpp */; };
+		5FD602371027918B00FA1598 /* AWBoidController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228AE1011189800A10E13 /* AWBoidController.cpp */; };
+		5FD602381027918B00FA1598 /* AWBumpMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B01011189800A10E13 /* AWBumpMesh.cpp */; };
+		5FD602391027918B00FA1598 /* AWCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B21011189800A10E13 /* AWCamera.cpp */; };
+		5FD6023A1027918B00FA1598 /* AWEffectMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228B81011189800A10E13 /* AWEffectMgr.cpp */; };
+		5FD6023B1027918B00FA1598 /* AWEnvironController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BA1011189800A10E13 /* AWEnvironController.cpp */; };
+		5FD6023C1027918B00FA1598 /* AWFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BC1011189800A10E13 /* AWFace.cpp */; };
+		5FD6023D1027918B00FA1598 /* AWFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228BE1011189800A10E13 /* AWFactory.cpp */; };
+		5FD6023E1027918B00FA1598 /* AWFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C01011189800A10E13 /* AWFile.cpp */; };
+		5FD6023F1027918B00FA1598 /* AWFlightController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C21011189800A10E13 /* AWFlightController.cpp */; };
+		5FD602401027918B00FA1598 /* AWFlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C41011189800A10E13 /* AWFlock.cpp */; };
+		5FD602411027918B00FA1598 /* AWFog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C61011189800A10E13 /* AWFog.cpp */; };
+		5FD602421027918B00FA1598 /* AWGLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228C81011189800A10E13 /* AWGLRenderer.cpp */; };
+		5FD602431027918B00FA1598 /* AWImageProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CA1011189800A10E13 /* AWImageProcessor.cpp */; };
+		5FD602441027918B00FA1598 /* AWLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CC1011189800A10E13 /* AWLight.cpp */; };
+		5FD602451027918B00FA1598 /* AWMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228CF1011189800A10E13 /* AWMaterial.cpp */; };
+		5FD602461027918B00FA1598 /* AWMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D21011189800A10E13 /* AWMatrix4.cpp */; };
+		5FD602471027918B00FA1598 /* AWMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D41011189800A10E13 /* AWMesh.cpp */; };
+		5FD602481027918B00FA1598 /* AWNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D61011189800A10E13 /* AWNode.cpp */; };
+		5FD602491027918B00FA1598 /* AWNormalMapTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228D81011189800A10E13 /* AWNormalMapTexture.cpp */; };
+		5FD6024A1027918B00FA1598 /* AWObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DA1011189800A10E13 /* AWObject.cpp */; };
+		5FD6024B1027918B00FA1598 /* AWPerfCnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DD1011189800A10E13 /* AWPerfCnt.cpp */; };
+		5FD6024C1027918B00FA1598 /* AWPersistable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228DF1011189800A10E13 /* AWPersistable.cpp */; };
+		5FD6024D1027918B00FA1598 /* AWPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E11011189800A10E13 /* AWPoint.cpp */; };
+		5FD6024E1027918B00FA1598 /* AWPositionKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E31011189800A10E13 /* AWPositionKey.cpp */; };
+		5FD6024F1027918B00FA1598 /* AWQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E61011189800A10E13 /* AWQuat.cpp */; };
+		5FD602501027918B00FA1598 /* AWRenderPass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228E81011189800A10E13 /* AWRenderPass.cpp */; };
+		5FD602511027918B00FA1598 /* AWRenderState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EA1011189800A10E13 /* AWRenderState.cpp */; };
+		5FD602521027918B00FA1598 /* AWRocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EC1011189800A10E13 /* AWRocket.cpp */; };
+		5FD602531027918B00FA1598 /* AWRotationKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228EE1011189800A10E13 /* AWRotationKey.cpp */; };
+		5FD602541027918B00FA1598 /* AWScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F01011189800A10E13 /* AWScene.cpp */; };
+		5FD602551027918B00FA1598 /* AWSea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F21011189800A10E13 /* AWSea.cpp */; };
+		5FD602561027918B00FA1598 /* AWPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F41011189800A10E13 /* AWPlayer.cpp */; };
+		5FD602571027918B00FA1598 /* AWStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F71011189800A10E13 /* AWStore.cpp */; };
+		5FD602581027918B00FA1598 /* AWTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228F91011189800A10E13 /* AWTexture.cpp */; };
+		5FD602591027918B00FA1598 /* AWTextureEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FB1011189800A10E13 /* AWTextureEffect.cpp */; };
+		5FD6025A1027918B00FA1598 /* AWTextureUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FD1011189800A10E13 /* AWTextureUnit.cpp */; };
+		5FD6025B1027918B00FA1598 /* AWTimerBarCtl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8228FF1011189800A10E13 /* AWTimerBarCtl.cpp */; };
+		5FD6025C1027918B00FA1598 /* AWTransformController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229031011189800A10E13 /* AWTransformController.cpp */; };
+		5FD6025D1027918B00FA1598 /* AWTVertexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8229061011189800A10E13 /* AWTVertexList.cpp */; };
+		5FD6025E1027918B00FA1598 /* AWWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F82290A1011189800A10E13 /* AWWorker.cpp */; };
+		5FD6025F1027918B00FA1598 /* LocalScenesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A391011210600A10E13 /* LocalScenesController.m */; };
+		5FD602601027918B00FA1598 /* RemoteScenesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A3B1011210600A10E13 /* RemoteScenesController.m */; };
+		5FD602611027918B00FA1598 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A3D1011210600A10E13 /* RootViewController.m */; };
+		5FD602621027918B00FA1598 /* SceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F822A411011210600A10E13 /* SceneViewController.m */; };
+		5FD602641027918B00FA1598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		5FD602651027918B00FA1598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		5FD602661027918B00FA1598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		5FD602671027918B00FA1598 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F82283B101117A800A10E13 /* OpenGLES.framework */; };
+		5FD602681027918B00FA1598 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F822A321011201E00A10E13 /* QuartzCore.framework */; };
+		5FD602841027926500FA1598 /* iCritterTests.octest in Resources */ = {isa = PBXBuildFile; fileRef = 5FD60278102791DF00FA1598 /* iCritterTests.octest */; };
+		5FD602911027939E00FA1598 /* iCritterAppTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD602901027939E00FA1598 /* iCritterAppTests.mm */; };
+		5FD9A83611F38AC400A04041 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD9A83511F38AC300A04041 /* AVFoundation.framework */; };
+		5FD9A86B11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A86A11F38B9D00A04041 /* MyVideoBuffer.mm */; };
+		5FD9A86C11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A86A11F38B9D00A04041 /* MyVideoBuffer.mm */; };
+		5FD9A86D11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A86A11F38B9D00A04041 /* MyVideoBuffer.mm */; };
+		5FD9A86E11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9A86A11F38B9D00A04041 /* MyVideoBuffer.mm */; };
+		5FD9A87411F38BDD00A04041 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD9A87311F38BDD00A04041 /* CoreVideo.framework */; };
+		5FD9A88011F38BFD00A04041 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD9A87F11F38BFD00A04041 /* CoreMedia.framework */; };
+		5FD9A88411F38C1F00A04041 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD9A88311F38C1F00A04041 /* MobileCoreServices.framework */; };
+		5FE944B31603D38E001EC53E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE944B21603D38E001EC53E /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD6027F1027920300FA1598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD60277102791DF00FA1598;
+			remoteInfo = iCritterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iCritterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCritterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iCritterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCritterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iCritter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCritter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iCritter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCritter_Prefix.pch; sourceTree = "<group>"; };
+		5F289D9B101E362D0025E23F /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F289D9C101E362D0025E23F /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		5F289DAC101E37560025E23F /* LogicTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicTests.h; sourceTree = "<group>"; };
+		5F289DAD101E37560025E23F /* LogicTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LogicTests.mm; sourceTree = "<group>"; };
+		5F344DC613DB6F5D003591B7 /* AWGL1Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWGL1Renderer.cpp; path = AW3DTools/AWGL1Renderer.cpp; sourceTree = "<group>"; };
+		5F344DC713DB6F5D003591B7 /* AWGL1Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWGL1Renderer.h; path = AW3DTools/AWGL1Renderer.h; sourceTree = "<group>"; };
+		5F344DC813DB6F5D003591B7 /* AWGL1RenderState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWGL1RenderState.cpp; path = AW3DTools/AWGL1RenderState.cpp; sourceTree = "<group>"; };
+		5F344DC913DB6F5D003591B7 /* AWGL1RenderState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWGL1RenderState.h; path = AW3DTools/AWGL1RenderState.h; sourceTree = "<group>"; };
+		5F344DCA13DB6F5D003591B7 /* AWGL2Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWGL2Renderer.cpp; path = AW3DTools/AWGL2Renderer.cpp; sourceTree = "<group>"; };
+		5F344DCB13DB6F5D003591B7 /* AWGL2Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWGL2Renderer.h; path = AW3DTools/AWGL2Renderer.h; sourceTree = "<group>"; };
+		5F344DCC13DB6F5D003591B7 /* AWGL2RenderState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWGL2RenderState.cpp; path = AW3DTools/AWGL2RenderState.cpp; sourceTree = "<group>"; };
+		5F344DCD13DB6F5D003591B7 /* AWGL2RenderState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWGL2RenderState.h; path = AW3DTools/AWGL2RenderState.h; sourceTree = "<group>"; };
+		5F3A17FD104E8AA300BC9DCB /* kmatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = kmatrix.hpp; path = AW3DTools/kmatrix.hpp; sourceTree = "<group>"; };
+		5F3A17FE104E8AA300BC9DCB /* kstride_iter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = kstride_iter.hpp; path = AW3DTools/kstride_iter.hpp; sourceTree = "<group>"; };
+		5F3A17FF104E8AA300BC9DCB /* kvector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = kvector.hpp; path = AW3DTools/kvector.hpp; sourceTree = "<group>"; };
+		5F4D467111B1B69C00E0670A /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		5F79001C167D06CA00987B01 /* DiscardShader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; name = DiscardShader.fsh; path = Shaders/DiscardShader.fsh; sourceTree = "<group>"; };
+		5F816640104EA3CD00A85620 /* kmatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kmatrix.cpp; sourceTree = "<group>"; };
+		5F8227ED101112F700A10E13 /* iCritterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCritterViewController.h; sourceTree = "<group>"; };
+		5F8227EE101112F700A10E13 /* iCritterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCritterViewController.m; sourceTree = "<group>"; };
+		5F8228381011178600A10E13 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		5F8228391011178600A10E13 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		5F82283B101117A800A10E13 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5F82283E101117DF00A10E13 /* AWDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWDownloader.h; path = Utils/AWDownloader.h; sourceTree = "<group>"; };
+		5F82283F101117DF00A10E13 /* AWDownloader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AWDownloader.mm; path = Utils/AWDownloader.mm; sourceTree = "<group>"; };
+		5F822840101117DF00A10E13 /* AWRemoteSceneInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWRemoteSceneInfo.h; path = Utils/AWRemoteSceneInfo.h; sourceTree = "<group>"; };
+		5F822841101117DF00A10E13 /* AWRemoteSceneInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AWRemoteSceneInfo.mm; path = Utils/AWRemoteSceneInfo.mm; sourceTree = "<group>"; };
+		5F822842101117DF00A10E13 /* AWSceneInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSceneInfo.h; path = Utils/AWSceneInfo.h; sourceTree = "<group>"; };
+		5F822843101117DF00A10E13 /* AWSceneInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AWSceneInfo.mm; path = Utils/AWSceneInfo.mm; sourceTree = "<group>"; };
+		5F822844101117DF00A10E13 /* AWSceneMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSceneMgr.h; path = Utils/AWSceneMgr.h; sourceTree = "<group>"; };
+		5F822845101117DF00A10E13 /* AWSceneMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AWSceneMgr.mm; path = Utils/AWSceneMgr.mm; sourceTree = "<group>"; };
+		5F82284B1011182200A10E13 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = "zlib-1.2.3/adler32.c"; sourceTree = "<group>"; };
+		5F82284C1011182200A10E13 /* AWMinigzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWMinigzip.cpp; path = "zlib-1.2.3/AWMinigzip.cpp"; sourceTree = "<group>"; };
+		5F82284D1011182200A10E13 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = "zlib-1.2.3/compress.c"; sourceTree = "<group>"; };
+		5F82284E1011182200A10E13 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = "zlib-1.2.3/crc32.c"; sourceTree = "<group>"; };
+		5F82284F1011182200A10E13 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crc32.h; path = "zlib-1.2.3/crc32.h"; sourceTree = "<group>"; };
+		5F8228501011182200A10E13 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deflate.c; path = "zlib-1.2.3/deflate.c"; sourceTree = "<group>"; };
+		5F8228511011182200A10E13 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deflate.h; path = "zlib-1.2.3/deflate.h"; sourceTree = "<group>"; };
+		5F8228521011182200A10E13 /* gzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gzio.c; path = "zlib-1.2.3/gzio.c"; sourceTree = "<group>"; };
+		5F8228531011182200A10E13 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = infback.c; path = "zlib-1.2.3/infback.c"; sourceTree = "<group>"; };
+		5F8228541011182200A10E13 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = "zlib-1.2.3/inffast.c"; sourceTree = "<group>"; };
+		5F8228551011182200A10E13 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffast.h; path = "zlib-1.2.3/inffast.h"; sourceTree = "<group>"; };
+		5F8228561011182200A10E13 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffixed.h; path = "zlib-1.2.3/inffixed.h"; sourceTree = "<group>"; };
+		5F8228571011182200A10E13 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = "zlib-1.2.3/inflate.c"; sourceTree = "<group>"; };
+		5F8228581011182200A10E13 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inflate.h; path = "zlib-1.2.3/inflate.h"; sourceTree = "<group>"; };
+		5F8228591011182200A10E13 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inftrees.c; path = "zlib-1.2.3/inftrees.c"; sourceTree = "<group>"; };
+		5F82285A1011182200A10E13 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inftrees.h; path = "zlib-1.2.3/inftrees.h"; sourceTree = "<group>"; };
+		5F82285B1011182200A10E13 /* minigzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = minigzip.c; path = "zlib-1.2.3/minigzip.c"; sourceTree = "<group>"; };
+		5F82285C1011182200A10E13 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trees.c; path = "zlib-1.2.3/trees.c"; sourceTree = "<group>"; };
+		5F82285D1011182200A10E13 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trees.h; path = "zlib-1.2.3/trees.h"; sourceTree = "<group>"; };
+		5F82285E1011182200A10E13 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uncompr.c; path = "zlib-1.2.3/uncompr.c"; sourceTree = "<group>"; };
+		5F82285F1011182200A10E13 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = "zlib-1.2.3/zconf.h"; sourceTree = "<group>"; };
+		5F8228601011182200A10E13 /* zconf.in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.in.h; path = "zlib-1.2.3/zconf.in.h"; sourceTree = "<group>"; };
+		5F8228611011182200A10E13 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = "zlib-1.2.3/zlib.h"; sourceTree = "<group>"; };
+		5F8228621011182200A10E13 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = "zlib-1.2.3/zutil.c"; sourceTree = "<group>"; };
+		5F8228631011182200A10E13 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = "zlib-1.2.3/zutil.h"; sourceTree = "<group>"; };
+		5F8228A41011189800A10E13 /* AWAnimatedFloat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWAnimatedFloat.cpp; path = AW3DTools/AWAnimatedFloat.cpp; sourceTree = "<group>"; };
+		5F8228A51011189800A10E13 /* AWAnimatedFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWAnimatedFloat.h; path = AW3DTools/AWAnimatedFloat.h; sourceTree = "<group>"; };
+		5F8228A61011189800A10E13 /* AWAnimatedPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWAnimatedPoint.cpp; path = AW3DTools/AWAnimatedPoint.cpp; sourceTree = "<group>"; };
+		5F8228A71011189800A10E13 /* AWAnimatedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWAnimatedPoint.h; path = AW3DTools/AWAnimatedPoint.h; sourceTree = "<group>"; };
+		5F8228A81011189800A10E13 /* AWAnimatedQuat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWAnimatedQuat.cpp; path = AW3DTools/AWAnimatedQuat.cpp; sourceTree = "<group>"; };
+		5F8228A91011189800A10E13 /* AWAnimatedQuat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWAnimatedQuat.h; path = AW3DTools/AWAnimatedQuat.h; sourceTree = "<group>"; };
+		5F8228AA1011189800A10E13 /* AWAnimatedTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWAnimatedTexture.cpp; path = AW3DTools/AWAnimatedTexture.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5F8228AB1011189800A10E13 /* AWAnimatedTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWAnimatedTexture.h; path = AW3DTools/AWAnimatedTexture.h; sourceTree = "<group>"; };
+		5F8228AC1011189800A10E13 /* AWBillboardController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWBillboardController.cpp; path = AW3DTools/AWBillboardController.cpp; sourceTree = "<group>"; };
+		5F8228AD1011189800A10E13 /* AWBillboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWBillboardController.h; path = AW3DTools/AWBillboardController.h; sourceTree = "<group>"; };
+		5F8228AE1011189800A10E13 /* AWBoidController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWBoidController.cpp; path = AW3DTools/AWBoidController.cpp; sourceTree = "<group>"; };
+		5F8228AF1011189800A10E13 /* AWBoidController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWBoidController.h; path = AW3DTools/AWBoidController.h; sourceTree = "<group>"; };
+		5F8228B01011189800A10E13 /* AWBumpMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWBumpMesh.cpp; path = AW3DTools/AWBumpMesh.cpp; sourceTree = "<group>"; };
+		5F8228B11011189800A10E13 /* AWBumpMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWBumpMesh.h; path = AW3DTools/AWBumpMesh.h; sourceTree = "<group>"; };
+		5F8228B21011189800A10E13 /* AWCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWCamera.cpp; path = AW3DTools/AWCamera.cpp; sourceTree = "<group>"; };
+		5F8228B31011189800A10E13 /* AWCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWCamera.h; path = AW3DTools/AWCamera.h; sourceTree = "<group>"; };
+		5F8228B41011189800A10E13 /* AWCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWCString.h; path = AW3DTools/AWCString.h; sourceTree = "<group>"; };
+		5F8228B61011189800A10E13 /* AWCubeEnvTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWCubeEnvTexture.h; path = AW3DTools/AWCubeEnvTexture.h; sourceTree = "<group>"; };
+		5F8228B71011189800A10E13 /* AWCubeGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWCubeGen.h; path = AW3DTools/AWCubeGen.h; sourceTree = "<group>"; };
+		5F8228B81011189800A10E13 /* AWEffectMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWEffectMgr.cpp; path = AW3DTools/AWEffectMgr.cpp; sourceTree = "<group>"; };
+		5F8228B91011189800A10E13 /* AWEffectMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWEffectMgr.h; path = AW3DTools/AWEffectMgr.h; sourceTree = "<group>"; };
+		5F8228BA1011189800A10E13 /* AWEnvironController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWEnvironController.cpp; path = AW3DTools/AWEnvironController.cpp; sourceTree = "<group>"; };
+		5F8228BB1011189800A10E13 /* AWEnvironController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWEnvironController.h; path = AW3DTools/AWEnvironController.h; sourceTree = "<group>"; };
+		5F8228BC1011189800A10E13 /* AWFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWFace.cpp; path = AW3DTools/AWFace.cpp; sourceTree = "<group>"; };
+		5F8228BD1011189800A10E13 /* AWFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWFace.h; path = AW3DTools/AWFace.h; sourceTree = "<group>"; };
+		5F8228BE1011189800A10E13 /* AWFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWFactory.cpp; path = AW3DTools/AWFactory.cpp; sourceTree = "<group>"; };
+		5F8228BF1011189800A10E13 /* AWFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWFactory.h; path = AW3DTools/AWFactory.h; sourceTree = "<group>"; };
+		5F8228C01011189800A10E13 /* AWFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWFile.cpp; path = AW3DTools/AWFile.cpp; sourceTree = "<group>"; };
+		5F8228C11011189800A10E13 /* AWFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWFile.h; path = AW3DTools/AWFile.h; sourceTree = "<group>"; };
+		5F8228C21011189800A10E13 /* AWFlightController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWFlightController.cpp; path = AW3DTools/AWFlightController.cpp; sourceTree = "<group>"; };
+		5F8228C31011189800A10E13 /* AWFlightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWFlightController.h; path = AW3DTools/AWFlightController.h; sourceTree = "<group>"; };
+		5F8228C41011189800A10E13 /* AWFlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWFlock.cpp; path = AW3DTools/AWFlock.cpp; sourceTree = "<group>"; };
+		5F8228C51011189800A10E13 /* AWFlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWFlock.h; path = AW3DTools/AWFlock.h; sourceTree = "<group>"; };
+		5F8228C61011189800A10E13 /* AWFog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWFog.cpp; path = AW3DTools/AWFog.cpp; sourceTree = "<group>"; };
+		5F8228C71011189800A10E13 /* AWFog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWFog.h; path = AW3DTools/AWFog.h; sourceTree = "<group>"; };
+		5F8228C81011189800A10E13 /* AWGLRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWGLRenderer.cpp; path = AW3DTools/AWGLRenderer.cpp; sourceTree = "<group>"; };
+		5F8228C91011189800A10E13 /* AWGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWGLRenderer.h; path = AW3DTools/AWGLRenderer.h; sourceTree = "<group>"; };
+		5F8228CA1011189800A10E13 /* AWImageProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWImageProcessor.cpp; path = AW3DTools/AWImageProcessor.cpp; sourceTree = "<group>"; };
+		5F8228CB1011189800A10E13 /* AWImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWImageProcessor.h; path = AW3DTools/AWImageProcessor.h; sourceTree = "<group>"; };
+		5F8228CC1011189800A10E13 /* AWLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWLight.cpp; path = AW3DTools/AWLight.cpp; sourceTree = "<group>"; };
+		5F8228CD1011189800A10E13 /* AWLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWLight.h; path = AW3DTools/AWLight.h; sourceTree = "<group>"; };
+		5F8228CE1011189800A10E13 /* AWList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWList.h; path = AW3DTools/AWList.h; sourceTree = "<group>"; };
+		5F8228CF1011189800A10E13 /* AWMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWMaterial.cpp; path = AW3DTools/AWMaterial.cpp; sourceTree = "<group>"; };
+		5F8228D01011189800A10E13 /* AWMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWMaterial.h; path = AW3DTools/AWMaterial.h; sourceTree = "<group>"; };
+		5F8228D11011189800A10E13 /* AWMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWMatrix3.h; path = AW3DTools/AWMatrix3.h; sourceTree = "<group>"; };
+		5F8228D21011189800A10E13 /* AWMatrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWMatrix4.cpp; path = AW3DTools/AWMatrix4.cpp; sourceTree = "<group>"; };
+		5F8228D31011189800A10E13 /* AWMatrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWMatrix4.h; path = AW3DTools/AWMatrix4.h; sourceTree = "<group>"; };
+		5F8228D41011189800A10E13 /* AWMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWMesh.cpp; path = AW3DTools/AWMesh.cpp; sourceTree = "<group>"; };
+		5F8228D51011189800A10E13 /* AWMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWMesh.h; path = AW3DTools/AWMesh.h; sourceTree = "<group>"; };
+		5F8228D61011189800A10E13 /* AWNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWNode.cpp; path = AW3DTools/AWNode.cpp; sourceTree = "<group>"; };
+		5F8228D71011189800A10E13 /* AWNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWNode.h; path = AW3DTools/AWNode.h; sourceTree = "<group>"; };
+		5F8228D81011189800A10E13 /* AWNormalMapTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWNormalMapTexture.cpp; path = AW3DTools/AWNormalMapTexture.cpp; sourceTree = "<group>"; };
+		5F8228D91011189800A10E13 /* AWNormalMapTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWNormalMapTexture.h; path = AW3DTools/AWNormalMapTexture.h; sourceTree = "<group>"; };
+		5F8228DA1011189800A10E13 /* AWObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWObject.cpp; path = AW3DTools/AWObject.cpp; sourceTree = "<group>"; };
+		5F8228DB1011189800A10E13 /* AWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWObject.h; path = AW3DTools/AWObject.h; sourceTree = "<group>"; };
+		5F8228DC1011189800A10E13 /* AWOrdered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWOrdered.h; path = AW3DTools/AWOrdered.h; sourceTree = "<group>"; };
+		5F8228DD1011189800A10E13 /* AWPerfCnt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWPerfCnt.cpp; path = AW3DTools/AWPerfCnt.cpp; sourceTree = "<group>"; };
+		5F8228DE1011189800A10E13 /* AWPerfCnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPerfCnt.h; path = AW3DTools/AWPerfCnt.h; sourceTree = "<group>"; };
+		5F8228DF1011189800A10E13 /* AWPersistable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWPersistable.cpp; path = AW3DTools/AWPersistable.cpp; sourceTree = "<group>"; };
+		5F8228E01011189800A10E13 /* AWPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPersistable.h; path = AW3DTools/AWPersistable.h; sourceTree = "<group>"; };
+		5F8228E11011189800A10E13 /* AWPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWPoint.cpp; path = AW3DTools/AWPoint.cpp; sourceTree = "<group>"; };
+		5F8228E21011189800A10E13 /* AWPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPoint.h; path = AW3DTools/AWPoint.h; sourceTree = "<group>"; };
+		5F8228E31011189800A10E13 /* AWPositionKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWPositionKey.cpp; path = AW3DTools/AWPositionKey.cpp; sourceTree = "<group>"; };
+		5F8228E41011189800A10E13 /* AWPositionKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPositionKey.h; path = AW3DTools/AWPositionKey.h; sourceTree = "<group>"; };
+		5F8228E51011189800A10E13 /* AWPtrList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPtrList.h; path = AW3DTools/AWPtrList.h; sourceTree = "<group>"; };
+		5F8228E61011189800A10E13 /* AWQuat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWQuat.cpp; path = AW3DTools/AWQuat.cpp; sourceTree = "<group>"; };
+		5F8228E71011189800A10E13 /* AWQuat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWQuat.h; path = AW3DTools/AWQuat.h; sourceTree = "<group>"; };
+		5F8228E81011189800A10E13 /* AWRenderPass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWRenderPass.cpp; path = AW3DTools/AWRenderPass.cpp; sourceTree = "<group>"; };
+		5F8228E91011189800A10E13 /* AWRenderPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWRenderPass.h; path = AW3DTools/AWRenderPass.h; sourceTree = "<group>"; };
+		5F8228EA1011189800A10E13 /* AWRenderState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWRenderState.cpp; path = AW3DTools/AWRenderState.cpp; sourceTree = "<group>"; };
+		5F8228EB1011189800A10E13 /* AWRenderState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWRenderState.h; path = AW3DTools/AWRenderState.h; sourceTree = "<group>"; };
+		5F8228EC1011189800A10E13 /* AWRocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWRocket.cpp; path = AW3DTools/AWRocket.cpp; sourceTree = "<group>"; };
+		5F8228ED1011189800A10E13 /* AWRocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWRocket.h; path = AW3DTools/AWRocket.h; sourceTree = "<group>"; };
+		5F8228EE1011189800A10E13 /* AWRotationKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWRotationKey.cpp; path = AW3DTools/AWRotationKey.cpp; sourceTree = "<group>"; };
+		5F8228EF1011189800A10E13 /* AWRotationKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWRotationKey.h; path = AW3DTools/AWRotationKey.h; sourceTree = "<group>"; };
+		5F8228F01011189800A10E13 /* AWScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWScene.cpp; path = AW3DTools/AWScene.cpp; sourceTree = "<group>"; };
+		5F8228F11011189800A10E13 /* AWScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWScene.h; path = AW3DTools/AWScene.h; sourceTree = "<group>"; };
+		5F8228F21011189800A10E13 /* AWSea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWSea.cpp; path = AW3DTools/AWSea.cpp; sourceTree = "<group>"; };
+		5F8228F31011189800A10E13 /* AWSea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSea.h; path = AW3DTools/AWSea.h; sourceTree = "<group>"; };
+		5F8228F41011189800A10E13 /* AWPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWPlayer.cpp; path = AW3DTools/AWPlayer.cpp; sourceTree = "<group>"; };
+		5F8228F51011189800A10E13 /* AWPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPlayer.h; path = AW3DTools/AWPlayer.h; sourceTree = "<group>"; };
+		5F8228F61011189800A10E13 /* AWSphrCone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSphrCone.h; path = AW3DTools/AWSphrCone.h; sourceTree = "<group>"; };
+		5F8228F71011189800A10E13 /* AWStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWStore.cpp; path = AW3DTools/AWStore.cpp; sourceTree = "<group>"; };
+		5F8228F81011189800A10E13 /* AWStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWStore.h; path = AW3DTools/AWStore.h; sourceTree = "<group>"; };
+		5F8228F91011189800A10E13 /* AWTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWTexture.cpp; path = AW3DTools/AWTexture.cpp; sourceTree = "<group>"; };
+		5F8228FA1011189800A10E13 /* AWTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTexture.h; path = AW3DTools/AWTexture.h; sourceTree = "<group>"; };
+		5F8228FB1011189800A10E13 /* AWTextureEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWTextureEffect.cpp; path = AW3DTools/AWTextureEffect.cpp; sourceTree = "<group>"; };
+		5F8228FC1011189800A10E13 /* AWTextureEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTextureEffect.h; path = AW3DTools/AWTextureEffect.h; sourceTree = "<group>"; };
+		5F8228FD1011189800A10E13 /* AWTextureUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWTextureUnit.cpp; path = AW3DTools/AWTextureUnit.cpp; sourceTree = "<group>"; };
+		5F8228FE1011189800A10E13 /* AWTextureUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTextureUnit.h; path = AW3DTools/AWTextureUnit.h; sourceTree = "<group>"; };
+		5F8228FF1011189800A10E13 /* AWTimerBarCtl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWTimerBarCtl.cpp; path = AW3DTools/AWTimerBarCtl.cpp; sourceTree = "<group>"; };
+		5F8229001011189800A10E13 /* AWTimerBarCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTimerBarCtl.h; path = AW3DTools/AWTimerBarCtl.h; sourceTree = "<group>"; };
+		5F8229011011189800A10E13 /* AWTooldefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTooldefs.h; path = AW3DTools/AWTooldefs.h; sourceTree = "<group>"; };
+		5F8229021011189800A10E13 /* AWToolsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWToolsCommon.h; path = AW3DTools/AWToolsCommon.h; sourceTree = "<group>"; };
+		5F8229031011189800A10E13 /* AWTransformController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWTransformController.cpp; path = AW3DTools/AWTransformController.cpp; sourceTree = "<group>"; };
+		5F8229041011189800A10E13 /* AWTransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTransformController.h; path = AW3DTools/AWTransformController.h; sourceTree = "<group>"; };
+		5F8229051011189800A10E13 /* AWTVert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTVert.h; path = AW3DTools/AWTVert.h; sourceTree = "<group>"; };
+		5F8229061011189800A10E13 /* AWTVertexList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWTVertexList.cpp; path = AW3DTools/AWTVertexList.cpp; sourceTree = "<group>"; };
+		5F8229071011189800A10E13 /* AWTVertexList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTVertexList.h; path = AW3DTools/AWTVertexList.h; sourceTree = "<group>"; };
+		5F82290A1011189800A10E13 /* AWWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWWorker.cpp; path = AW3DTools/AWWorker.cpp; sourceTree = "<group>"; };
+		5F82290B1011189800A10E13 /* AWWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWWorker.h; path = AW3DTools/AWWorker.h; sourceTree = "<group>"; };
+		5F822A321011201E00A10E13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5F822A381011210600A10E13 /* LocalScenesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalScenesController.h; path = SceneMgrClasses/LocalScenesController.h; sourceTree = "<group>"; };
+		5F822A391011210600A10E13 /* LocalScenesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalScenesController.m; path = SceneMgrClasses/LocalScenesController.m; sourceTree = "<group>"; };
+		5F822A3A1011210600A10E13 /* RemoteScenesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteScenesController.h; path = SceneMgrClasses/RemoteScenesController.h; sourceTree = "<group>"; };
+		5F822A3B1011210600A10E13 /* RemoteScenesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteScenesController.m; path = SceneMgrClasses/RemoteScenesController.m; sourceTree = "<group>"; };
+		5F822A3C1011210600A10E13 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = SceneMgrClasses/RootViewController.h; sourceTree = "<group>"; };
+		5F822A3D1011210600A10E13 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = SceneMgrClasses/RootViewController.m; sourceTree = "<group>"; };
+		5F822A401011210600A10E13 /* SceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneViewController.h; path = SceneMgrClasses/SceneViewController.h; sourceTree = "<group>"; };
+		5F822A411011210600A10E13 /* SceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneViewController.m; path = SceneMgrClasses/SceneViewController.m; sourceTree = "<group>"; };
+		5F822AB210120CF800A10E13 /* iCritter.tnt */ = {isa = PBXFileReference; lastKnownFileType = file; path = iCritter.tnt; sourceTree = "<group>"; };
+		5F822AEC1012109800A10E13 /* iCritter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCritter.png; sourceTree = "<group>"; };
+		5F9380C311EA2E1C00ED0443 /* ES1Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES1Renderer.h; sourceTree = "<group>"; };
+		5F9380C511EA2E1C00ED0443 /* ES2Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES2Renderer.h; sourceTree = "<group>"; };
+		5F9380C711EA2E1C00ED0443 /* ESRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRenderer.h; sourceTree = "<group>"; };
+		5F93811011EA37E400ED0443 /* ES1Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ES1Renderer.mm; sourceTree = "<group>"; };
+		5FA6BD7711F8DC5700D56488 /* AWVertexProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWVertexProgram.cpp; path = AW3DTools/AWVertexProgram.cpp; sourceTree = "<group>"; };
+		5FA6BD7811F8DC5700D56488 /* AWVertexProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWVertexProgram.h; path = AW3DTools/AWVertexProgram.h; sourceTree = "<group>"; };
+		5FA6BE6911F8E61800D56488 /* Shader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		5FA6BE6A11F8E61800D56488 /* Shader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		5FA6BEA911F8EB0C00D56488 /* ES2Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ES2Renderer.mm; sourceTree = "<group>"; };
+		5FAA062F1013670E006AD7A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5FACD2EA11EE4CCF00D5A22D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		5FB8E98F166A799800B5F95F /* AWPoint4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPoint4.h; path = AW3DTools/AWPoint4.h; sourceTree = "<group>"; };
+		5FB8E990166A7B6C00B5F95F /* AWPoint4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AWPoint4.cpp; path = AW3DTools/AWPoint4.cpp; sourceTree = "<group>"; };
+		5FC341EB1616577C00C430C6 /* ES1dot1.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; name = ES1dot1.vsh; path = Shaders/ES1dot1.vsh; sourceTree = "<group>"; };
+		5FD6026F1027918B00FA1598 /* iCritter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCritter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD60278102791DF00FA1598 /* iCritterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCritterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD60279102791DF00FA1598 /* iCritterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCritterTests-Info.plist"; sourceTree = "<group>"; };
+		5FD6028F1027939E00FA1598 /* iCritterAppTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCritterAppTests.h; sourceTree = "<group>"; };
+		5FD602901027939E00FA1598 /* iCritterAppTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iCritterAppTests.mm; sourceTree = "<group>"; };
+		5FD9A83511F38AC300A04041 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5FD9A86911F38B9D00A04041 /* MyVideoBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyVideoBuffer.h; path = CameraTexture/MyVideoBuffer.h; sourceTree = "<group>"; };
+		5FD9A86A11F38B9D00A04041 /* MyVideoBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MyVideoBuffer.mm; path = CameraTexture/MyVideoBuffer.mm; sourceTree = "<group>"; };
+		5FD9A87311F38BDD00A04041 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5FD9A87F11F38BFD00A04041 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5FD9A88311F38C1F00A04041 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5FE944B21603D38E001EC53E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iCritter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iCritter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				5F82283C101117A800A10E13 /* OpenGLES.framework in Frameworks */,
+				5F822A331011201E00A10E13 /* QuartzCore.framework in Frameworks */,
+				5FACD2EB11EE4CCF00D5A22D /* CoreMotion.framework in Frameworks */,
+				5FD9A83611F38AC400A04041 /* AVFoundation.framework in Frameworks */,
+				5FD9A87411F38BDD00A04041 /* CoreVideo.framework in Frameworks */,
+				5FD9A88011F38BFD00A04041 /* CoreMedia.framework in Frameworks */,
+				5FD9A88411F38C1F00A04041 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F289D98101E362D0025E23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3A17DE104E860900BC9DCB /* QuartzCore.framework in Frameworks */,
+				5F3A17DF104E860900BC9DCB /* OpenGLES.framework in Frameworks */,
+				5F3A17E0104E860900BC9DCB /* UIKit.framework in Frameworks */,
+				5F3A17E1104E860900BC9DCB /* Foundation.framework in Frameworks */,
+				5F3A17E2104E860900BC9DCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD602631027918B00FA1598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD602641027918B00FA1598 /* Foundation.framework in Frameworks */,
+				5FD602651027918B00FA1598 /* UIKit.framework in Frameworks */,
+				5FD602661027918B00FA1598 /* CoreGraphics.framework in Frameworks */,
+				5FD602671027918B00FA1598 /* OpenGLES.framework in Frameworks */,
+				5FD602681027918B00FA1598 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD60275102791DF00FA1598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3A17E3104E860A00BC9DCB /* QuartzCore.framework in Frameworks */,
+				5F3A17E4104E860A00BC9DCB /* OpenGLES.framework in Frameworks */,
+				5F3A17E5104E860A00BC9DCB /* UIKit.framework in Frameworks */,
+				5F3A17E6104E860A00BC9DCB /* Foundation.framework in Frameworks */,
+				5F3A17E7104E860A00BC9DCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5FA6BEA911F8EB0C00D56488 /* ES2Renderer.mm */,
+				5F93811011EA37E400ED0443 /* ES1Renderer.mm */,
+				5F9380C311EA2E1C00ED0443 /* ES1Renderer.h */,
+				5F9380C511EA2E1C00ED0443 /* ES2Renderer.h */,
+				5F9380C711EA2E1C00ED0443 /* ESRenderer.h */,
+				5F8228381011178600A10E13 /* EAGLView.h */,
+				5F8228391011178600A10E13 /* EAGLView.mm */,
+				1D3623240D0F684500981E51 /* iCritterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iCritterAppDelegate.m */,
+				5F8227ED101112F700A10E13 /* iCritterViewController.h */,
+				5F8227EE101112F700A10E13 /* iCritterViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iCritter.app */,
+				5F289D9B101E362D0025E23F /* LogicTests.octest */,
+				5FD6026F1027918B00FA1598 /* iCritter.app */,
+				5FD60278102791DF00FA1598 /* iCritterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5FE944B21603D38E001EC53E /* Default-568h@2x.png */,
+				5FA6BE7311F8E62400D56488 /* Shaders */,
+				5FD9A86711F38B2B00A04041 /* CameraTexture */,
+				5F289DAA101E365A0025E23F /* Tests */,
+				5F822A37101120F000A10E13 /* SceneMgrClasses */,
+				5F8228721011185300A10E13 /* AW3DTools */,
+				5F82284A1011180600A10E13 /* ZLib */,
+				5F82283D101117CD00A10E13 /* Utils */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				5F4D467011B1B69B00E0670A /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5F289D9C101E362D0025E23F /* LogicTests-Info.plist */,
+				5FD60279102791DF00FA1598 /* iCritterTests-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iCritter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FAA062F1013670E006AD7A0 /* Default.png */,
+				5F822AEC1012109800A10E13 /* iCritter.png */,
+				5F822AB210120CF800A10E13 /* iCritter.tnt */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iCritter-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD9A87F11F38BFD00A04041 /* CoreMedia.framework */,
+				5FD9A83511F38AC300A04041 /* AVFoundation.framework */,
+				5F822A321011201E00A10E13 /* QuartzCore.framework */,
+				5F82283B101117A800A10E13 /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				5FACD2EA11EE4CCF00D5A22D /* CoreMotion.framework */,
+				5FD9A87311F38BDD00A04041 /* CoreVideo.framework */,
+				5FD9A88311F38C1F00A04041 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F289DAA101E365A0025E23F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3A17FD104E8AA300BC9DCB /* kmatrix.hpp */,
+				5F3A17FE104E8AA300BC9DCB /* kstride_iter.hpp */,
+				5F3A17FF104E8AA300BC9DCB /* kvector.hpp */,
+				5F289DAC101E37560025E23F /* LogicTests.h */,
+				5F289DAD101E37560025E23F /* LogicTests.mm */,
+				5FD6028F1027939E00FA1598 /* iCritterAppTests.h */,
+				5FD602901027939E00FA1598 /* iCritterAppTests.mm */,
+				5F816640104EA3CD00A85620 /* kmatrix.cpp */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		5F4D467011B1B69B00E0670A /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				5F4D467111B1B69C00E0670A /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		5F82283D101117CD00A10E13 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F82283E101117DF00A10E13 /* AWDownloader.h */,
+				5F82283F101117DF00A10E13 /* AWDownloader.mm */,
+				5F822840101117DF00A10E13 /* AWRemoteSceneInfo.h */,
+				5F822841101117DF00A10E13 /* AWRemoteSceneInfo.mm */,
+				5F822842101117DF00A10E13 /* AWSceneInfo.h */,
+				5F822843101117DF00A10E13 /* AWSceneInfo.mm */,
+				5F822844101117DF00A10E13 /* AWSceneMgr.h */,
+				5F822845101117DF00A10E13 /* AWSceneMgr.mm */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5F82284A1011180600A10E13 /* ZLib */ = {
+			isa = PBXGroup;
+			children = (
+				5F82284B1011182200A10E13 /* adler32.c */,
+				5F82284C1011182200A10E13 /* AWMinigzip.cpp */,
+				5F82284D1011182200A10E13 /* compress.c */,
+				5F82284E1011182200A10E13 /* crc32.c */,
+				5F82284F1011182200A10E13 /* crc32.h */,
+				5F8228501011182200A10E13 /* deflate.c */,
+				5F8228511011182200A10E13 /* deflate.h */,
+				5F8228521011182200A10E13 /* gzio.c */,
+				5F8228531011182200A10E13 /* infback.c */,
+				5F8228541011182200A10E13 /* inffast.c */,
+				5F8228551011182200A10E13 /* inffast.h */,
+				5F8228561011182200A10E13 /* inffixed.h */,
+				5F8228571011182200A10E13 /* inflate.c */,
+				5F8228581011182200A10E13 /* inflate.h */,
+				5F8228591011182200A10E13 /* inftrees.c */,
+				5F82285A1011182200A10E13 /* inftrees.h */,
+				5F82285B1011182200A10E13 /* minigzip.c */,
+				5F82285C1011182200A10E13 /* trees.c */,
+				5F82285D1011182200A10E13 /* trees.h */,
+				5F82285E1011182200A10E13 /* uncompr.c */,
+				5F82285F1011182200A10E13 /* zconf.h */,
+				5F8228601011182200A10E13 /* zconf.in.h */,
+				5F8228611011182200A10E13 /* zlib.h */,
+				5F8228621011182200A10E13 /* zutil.c */,
+				5F8228631011182200A10E13 /* zutil.h */,
+			);
+			name = ZLib;
+			sourceTree = "<group>";
+		};
+		5F8228721011185300A10E13 /* AW3DTools */ = {
+			isa = PBXGroup;
+			children = (
+				5F8228A41011189800A10E13 /* AWAnimatedFloat.cpp */,
+				5F8228A51011189800A10E13 /* AWAnimatedFloat.h */,
+				5F8228A61011189800A10E13 /* AWAnimatedPoint.cpp */,
+				5F8228A71011189800A10E13 /* AWAnimatedPoint.h */,
+				5F8228A81011189800A10E13 /* AWAnimatedQuat.cpp */,
+				5F8228A91011189800A10E13 /* AWAnimatedQuat.h */,
+				5F8228AA1011189800A10E13 /* AWAnimatedTexture.cpp */,
+				5F8228AB1011189800A10E13 /* AWAnimatedTexture.h */,
+				5F8228AC1011189800A10E13 /* AWBillboardController.cpp */,
+				5F8228AD1011189800A10E13 /* AWBillboardController.h */,
+				5F8228AE1011189800A10E13 /* AWBoidController.cpp */,
+				5F8228AF1011189800A10E13 /* AWBoidController.h */,
+				5F8228B01011189800A10E13 /* AWBumpMesh.cpp */,
+				5F8228B11011189800A10E13 /* AWBumpMesh.h */,
+				5F8228B21011189800A10E13 /* AWCamera.cpp */,
+				5F8228B31011189800A10E13 /* AWCamera.h */,
+				5F8228B41011189800A10E13 /* AWCString.h */,
+				5F8228B61011189800A10E13 /* AWCubeEnvTexture.h */,
+				5F8228B71011189800A10E13 /* AWCubeGen.h */,
+				5F8228B81011189800A10E13 /* AWEffectMgr.cpp */,
+				5F8228B91011189800A10E13 /* AWEffectMgr.h */,
+				5F8228BA1011189800A10E13 /* AWEnvironController.cpp */,
+				5F8228BB1011189800A10E13 /* AWEnvironController.h */,
+				5F8228BC1011189800A10E13 /* AWFace.cpp */,
+				5F8228BD1011189800A10E13 /* AWFace.h */,
+				5F8228BE1011189800A10E13 /* AWFactory.cpp */,
+				5F8228BF1011189800A10E13 /* AWFactory.h */,
+				5F8228C01011189800A10E13 /* AWFile.cpp */,
+				5F8228C11011189800A10E13 /* AWFile.h */,
+				5F8228C21011189800A10E13 /* AWFlightController.cpp */,
+				5F8228C31011189800A10E13 /* AWFlightController.h */,
+				5F8228C41011189800A10E13 /* AWFlock.cpp */,
+				5F8228C51011189800A10E13 /* AWFlock.h */,
+				5F8228C61011189800A10E13 /* AWFog.cpp */,
+				5F8228C71011189800A10E13 /* AWFog.h */,
+				5F344DC613DB6F5D003591B7 /* AWGL1Renderer.cpp */,
+				5F344DC713DB6F5D003591B7 /* AWGL1Renderer.h */,
+				5F344DC813DB6F5D003591B7 /* AWGL1RenderState.cpp */,
+				5F344DC913DB6F5D003591B7 /* AWGL1RenderState.h */,
+				5F344DCA13DB6F5D003591B7 /* AWGL2Renderer.cpp */,
+				5F344DCB13DB6F5D003591B7 /* AWGL2Renderer.h */,
+				5F344DCC13DB6F5D003591B7 /* AWGL2RenderState.cpp */,
+				5F344DCD13DB6F5D003591B7 /* AWGL2RenderState.h */,
+				5F8228C81011189800A10E13 /* AWGLRenderer.cpp */,
+				5F8228C91011189800A10E13 /* AWGLRenderer.h */,
+				5F8228CA1011189800A10E13 /* AWImageProcessor.cpp */,
+				5F8228CB1011189800A10E13 /* AWImageProcessor.h */,
+				5F8228CC1011189800A10E13 /* AWLight.cpp */,
+				5F8228CD1011189800A10E13 /* AWLight.h */,
+				5F8228CE1011189800A10E13 /* AWList.h */,
+				5F8228CF1011189800A10E13 /* AWMaterial.cpp */,
+				5F8228D01011189800A10E13 /* AWMaterial.h */,
+				5F8228D11011189800A10E13 /* AWMatrix3.h */,
+				5F8228D21011189800A10E13 /* AWMatrix4.cpp */,
+				5F8228D31011189800A10E13 /* AWMatrix4.h */,
+				5F8228D41011189800A10E13 /* AWMesh.cpp */,
+				5F8228D51011189800A10E13 /* AWMesh.h */,
+				5F8228D61011189800A10E13 /* AWNode.cpp */,
+				5F8228D71011189800A10E13 /* AWNode.h */,
+				5F8228D81011189800A10E13 /* AWNormalMapTexture.cpp */,
+				5F8228D91011189800A10E13 /* AWNormalMapTexture.h */,
+				5F8228DA1011189800A10E13 /* AWObject.cpp */,
+				5F8228DB1011189800A10E13 /* AWObject.h */,
+				5F8228DC1011189800A10E13 /* AWOrdered.h */,
+				5F8228DD1011189800A10E13 /* AWPerfCnt.cpp */,
+				5F8228DE1011189800A10E13 /* AWPerfCnt.h */,
+				5F8228DF1011189800A10E13 /* AWPersistable.cpp */,
+				5F8228E01011189800A10E13 /* AWPersistable.h */,
+				5F8228F41011189800A10E13 /* AWPlayer.cpp */,
+				5F8228F51011189800A10E13 /* AWPlayer.h */,
+				5F8228E11011189800A10E13 /* AWPoint.cpp */,
+				5F8228E21011189800A10E13 /* AWPoint.h */,
+				5F8228E31011189800A10E13 /* AWPositionKey.cpp */,
+				5F8228E41011189800A10E13 /* AWPositionKey.h */,
+				5F8228E51011189800A10E13 /* AWPtrList.h */,
+				5F8228E61011189800A10E13 /* AWQuat.cpp */,
+				5F8228E71011189800A10E13 /* AWQuat.h */,
+				5F8228E81011189800A10E13 /* AWRenderPass.cpp */,
+				5F8228E91011189800A10E13 /* AWRenderPass.h */,
+				5F8228EA1011189800A10E13 /* AWRenderState.cpp */,
+				5F8228EB1011189800A10E13 /* AWRenderState.h */,
+				5F8228EC1011189800A10E13 /* AWRocket.cpp */,
+				5F8228ED1011189800A10E13 /* AWRocket.h */,
+				5F8228EE1011189800A10E13 /* AWRotationKey.cpp */,
+				5F8228EF1011189800A10E13 /* AWRotationKey.h */,
+				5F8228F01011189800A10E13 /* AWScene.cpp */,
+				5F8228F11011189800A10E13 /* AWScene.h */,
+				5F8228F21011189800A10E13 /* AWSea.cpp */,
+				5F8228F31011189800A10E13 /* AWSea.h */,
+				5F8228F61011189800A10E13 /* AWSphrCone.h */,
+				5F8228F71011189800A10E13 /* AWStore.cpp */,
+				5F8228F81011189800A10E13 /* AWStore.h */,
+				5F8228F91011189800A10E13 /* AWTexture.cpp */,
+				5F8228FA1011189800A10E13 /* AWTexture.h */,
+				5F8228FB1011189800A10E13 /* AWTextureEffect.cpp */,
+				5F8228FC1011189800A10E13 /* AWTextureEffect.h */,
+				5F8228FD1011189800A10E13 /* AWTextureUnit.cpp */,
+				5F8228FE1011189800A10E13 /* AWTextureUnit.h */,
+				5F8228FF1011189800A10E13 /* AWTimerBarCtl.cpp */,
+				5F8229001011189800A10E13 /* AWTimerBarCtl.h */,
+				5F8229011011189800A10E13 /* AWTooldefs.h */,
+				5F8229021011189800A10E13 /* AWToolsCommon.h */,
+				5F8229031011189800A10E13 /* AWTransformController.cpp */,
+				5F8229041011189800A10E13 /* AWTransformController.h */,
+				5F8229051011189800A10E13 /* AWTVert.h */,
+				5F8229061011189800A10E13 /* AWTVertexList.cpp */,
+				5F8229071011189800A10E13 /* AWTVertexList.h */,
+				5FA6BD7711F8DC5700D56488 /* AWVertexProgram.cpp */,
+				5FA6BD7811F8DC5700D56488 /* AWVertexProgram.h */,
+				5F82290A1011189800A10E13 /* AWWorker.cpp */,
+				5F82290B1011189800A10E13 /* AWWorker.h */,
+				5FB8E98F166A799800B5F95F /* AWPoint4.h */,
+				5FB8E990166A7B6C00B5F95F /* AWPoint4.cpp */,
+			);
+			name = AW3DTools;
+			sourceTree = "<group>";
+		};
+		5F822A37101120F000A10E13 /* SceneMgrClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5F822A381011210600A10E13 /* LocalScenesController.h */,
+				5F822A391011210600A10E13 /* LocalScenesController.m */,
+				5F822A3A1011210600A10E13 /* RemoteScenesController.h */,
+				5F822A3B1011210600A10E13 /* RemoteScenesController.m */,
+				5F822A3C1011210600A10E13 /* RootViewController.h */,
+				5F822A3D1011210600A10E13 /* RootViewController.m */,
+				5F822A401011210600A10E13 /* SceneViewController.h */,
+				5F822A411011210600A10E13 /* SceneViewController.m */,
+			);
+			name = SceneMgrClasses;
+			sourceTree = "<group>";
+		};
+		5FA6BE7311F8E62400D56488 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				5FC341EB1616577C00C430C6 /* ES1dot1.vsh */,
+				5FA6BE6A11F8E61800D56488 /* Shader.vsh */,
+				5FA6BE6911F8E61800D56488 /* Shader.fsh */,
+				5F79001C167D06CA00987B01 /* DiscardShader.fsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		5FD9A86711F38B2B00A04041 /* CameraTexture */ = {
+			isa = PBXGroup;
+			children = (
+				5FD9A86911F38B9D00A04041 /* MyVideoBuffer.h */,
+				5FD9A86A11F38B9D00A04041 /* MyVideoBuffer.mm */,
+			);
+			name = CameraTexture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iCritter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iCritter" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				5F8229491011193F00A10E13 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCritter;
+			productName = iCritter;
+			productReference = 1D6058910D05DD3D006BFB54 /* iCritter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F289D9A101E362D0025E23F /* LogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F289DA1101E362F0025E23F /* Build configuration list for PBXNativeTarget "LogicTests" */;
+			buildPhases = (
+				5F289D96101E362D0025E23F /* Resources */,
+				5F289D97101E362D0025E23F /* Sources */,
+				5F289D98101E362D0025E23F /* Frameworks */,
+				5F289D99101E362D0025E23F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicTests;
+			productName = LogicTests;
+			productReference = 5F289D9B101E362D0025E23F /* LogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5FD602141027918B00FA1598 /* iCritterTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD6026A1027918B00FA1598 /* Build configuration list for PBXNativeTarget "iCritterTesting" */;
+			buildPhases = (
+				5FD602151027918B00FA1598 /* Resources */,
+				5FD6021B1027918B00FA1598 /* Sources */,
+				5FD602631027918B00FA1598 /* Frameworks */,
+				5FD602691027918B00FA1598 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD602801027920300FA1598 /* PBXTargetDependency */,
+			);
+			name = iCritterTesting;
+			productName = iCritter;
+			productReference = 5FD6026F1027918B00FA1598 /* iCritter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FD60277102791DF00FA1598 /* iCritterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD6027E102791E000FA1598 /* Build configuration list for PBXNativeTarget "iCritterTests" */;
+			buildPhases = (
+				5FD60273102791DF00FA1598 /* Resources */,
+				5FD60274102791DF00FA1598 /* Sources */,
+				5FD60275102791DF00FA1598 /* Frameworks */,
+				5FD60276102791DF00FA1598 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCritterTests;
+			productName = iCritterTests;
+			productReference = 5FD60278102791DF00FA1598 /* iCritterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iCritter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iCritter */,
+				5F289D9A101E362D0025E23F /* LogicTests */,
+				5FD602141027918B00FA1598 /* iCritterTesting */,
+				5FD60277102791DF00FA1598 /* iCritterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F79001E167D0D5A00987B01 /* DiscardShader.fsh in Resources */,
+				5F620CAB167933DC00C518F1 /* ES1dot1.vsh in Resources */,
+				5FA6BE8711F8E80700D56488 /* Shader.vsh in Resources */,
+				5FA6BE8611F8E80100D56488 /* Shader.fsh in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				5F822AB310120CF800A10E13 /* iCritter.tnt in Resources */,
+				5F822AED1012109800A10E13 /* iCritter.png in Resources */,
+				5FAA06301013670E006AD7A0 /* Default.png in Resources */,
+				5F4D467211B1B69C00E0670A /* MainWindow-iPad.xib in Resources */,
+				5FE944B31603D38E001EC53E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F289D96101E362D0025E23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD602151027918B00FA1598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD602841027926500FA1598 /* iCritterTests.octest in Resources */,
+				5FD602161027918B00FA1598 /* MainWindow.xib in Resources */,
+				5FD602171027918B00FA1598 /* iCritter.tnt in Resources */,
+				5FD602181027918B00FA1598 /* iCritter.png in Resources */,
+				5FD602191027918B00FA1598 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD60273102791DF00FA1598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		5F8229491011193F00A10E13 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD602691027918B00FA1598 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F289D99101E362D0025E23F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		5FD60276102791DF00FA1598 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iCritterAppDelegate.m in Sources */,
+				5F8227EF101112F700A10E13 /* iCritterViewController.m in Sources */,
+				5F82283A1011178600A10E13 /* EAGLView.mm in Sources */,
+				5F822846101117DF00A10E13 /* AWDownloader.mm in Sources */,
+				5F822847101117DF00A10E13 /* AWRemoteSceneInfo.mm in Sources */,
+				5F822848101117DF00A10E13 /* AWSceneInfo.mm in Sources */,
+				5F822849101117DF00A10E13 /* AWSceneMgr.mm in Sources */,
+				5F8228641011182200A10E13 /* adler32.c in Sources */,
+				5F8228651011182200A10E13 /* AWMinigzip.cpp in Sources */,
+				5F8228661011182200A10E13 /* compress.c in Sources */,
+				5F8228671011182200A10E13 /* crc32.c in Sources */,
+				5F8228681011182200A10E13 /* deflate.c in Sources */,
+				5F8228691011182200A10E13 /* gzio.c in Sources */,
+				5F82286A1011182200A10E13 /* infback.c in Sources */,
+				5F82286B1011182200A10E13 /* inffast.c in Sources */,
+				5F82286C1011182200A10E13 /* inflate.c in Sources */,
+				5F82286D1011182200A10E13 /* inftrees.c in Sources */,
+				5F82286E1011182200A10E13 /* minigzip.c in Sources */,
+				5F82286F1011182200A10E13 /* trees.c in Sources */,
+				5F8228701011182200A10E13 /* uncompr.c in Sources */,
+				5F8228711011182200A10E13 /* zutil.c in Sources */,
+				5F82290C1011189800A10E13 /* AWAnimatedFloat.cpp in Sources */,
+				5F82290D1011189800A10E13 /* AWAnimatedPoint.cpp in Sources */,
+				5F82290E1011189800A10E13 /* AWAnimatedQuat.cpp in Sources */,
+				5F82290F1011189800A10E13 /* AWAnimatedTexture.cpp in Sources */,
+				5F8229101011189800A10E13 /* AWBillboardController.cpp in Sources */,
+				5F8229111011189800A10E13 /* AWBoidController.cpp in Sources */,
+				5F8229121011189800A10E13 /* AWBumpMesh.cpp in Sources */,
+				5F8229131011189800A10E13 /* AWCamera.cpp in Sources */,
+				5F8229151011189800A10E13 /* AWEffectMgr.cpp in Sources */,
+				5F8229161011189800A10E13 /* AWEnvironController.cpp in Sources */,
+				5F8229171011189800A10E13 /* AWFace.cpp in Sources */,
+				5F8229181011189800A10E13 /* AWFactory.cpp in Sources */,
+				5F8229191011189800A10E13 /* AWFile.cpp in Sources */,
+				5F82291A1011189800A10E13 /* AWFlightController.cpp in Sources */,
+				5F82291B1011189800A10E13 /* AWFlock.cpp in Sources */,
+				5F82291C1011189800A10E13 /* AWFog.cpp in Sources */,
+				5F82291D1011189800A10E13 /* AWGLRenderer.cpp in Sources */,
+				5F82291E1011189800A10E13 /* AWImageProcessor.cpp in Sources */,
+				5F82291F1011189800A10E13 /* AWLight.cpp in Sources */,
+				5F8229201011189800A10E13 /* AWMaterial.cpp in Sources */,
+				5F8229211011189800A10E13 /* AWMatrix4.cpp in Sources */,
+				5F8229221011189800A10E13 /* AWMesh.cpp in Sources */,
+				5F8229231011189800A10E13 /* AWNode.cpp in Sources */,
+				5F8229241011189800A10E13 /* AWNormalMapTexture.cpp in Sources */,
+				5F8229251011189800A10E13 /* AWObject.cpp in Sources */,
+				5F8229261011189800A10E13 /* AWPerfCnt.cpp in Sources */,
+				5F8229271011189800A10E13 /* AWPersistable.cpp in Sources */,
+				5F8229281011189800A10E13 /* AWPoint.cpp in Sources */,
+				5F8229291011189800A10E13 /* AWPositionKey.cpp in Sources */,
+				5F82292A1011189800A10E13 /* AWQuat.cpp in Sources */,
+				5F82292B1011189800A10E13 /* AWRenderPass.cpp in Sources */,
+				5F82292C1011189800A10E13 /* AWRenderState.cpp in Sources */,
+				5F82292D1011189800A10E13 /* AWRocket.cpp in Sources */,
+				5F82292E1011189800A10E13 /* AWRotationKey.cpp in Sources */,
+				5F82292F1011189800A10E13 /* AWScene.cpp in Sources */,
+				5F8229301011189800A10E13 /* AWSea.cpp in Sources */,
+				5F8229311011189800A10E13 /* AWPlayer.cpp in Sources */,
+				5F8229321011189800A10E13 /* AWStore.cpp in Sources */,
+				5F8229331011189800A10E13 /* AWTexture.cpp in Sources */,
+				5F8229341011189800A10E13 /* AWTextureEffect.cpp in Sources */,
+				5F8229351011189800A10E13 /* AWTextureUnit.cpp in Sources */,
+				5F8229361011189800A10E13 /* AWTimerBarCtl.cpp in Sources */,
+				5F8229371011189800A10E13 /* AWTransformController.cpp in Sources */,
+				5F8229381011189800A10E13 /* AWTVertexList.cpp in Sources */,
+				5F82293A1011189800A10E13 /* AWWorker.cpp in Sources */,
+				5F822A421011210600A10E13 /* LocalScenesController.m in Sources */,
+				5F822A431011210600A10E13 /* RemoteScenesController.m in Sources */,
+				5F822A441011210600A10E13 /* RootViewController.m in Sources */,
+				5F822A461011210600A10E13 /* SceneViewController.m in Sources */,
+				5F93811311EA37E400ED0443 /* ES1Renderer.mm in Sources */,
+				5FD9A86D11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */,
+				5FA6BD7B11F8DC5700D56488 /* AWVertexProgram.cpp in Sources */,
+				5FA6BEAC11F8EB0C00D56488 /* ES2Renderer.mm in Sources */,
+				5F344DCE13DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */,
+				5F344DD213DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */,
+				5F344DD613DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */,
+				5F344DDA13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */,
+				5FB8E991166A7B6C00B5F95F /* AWPoint4.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F289D97101E362D0025E23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F289DAE101E37560025E23F /* LogicTests.mm in Sources */,
+				5F3A16B8104E854C00BC9DCB /* AWAnimatedFloat.cpp in Sources */,
+				5F3A16BA104E857900BC9DCB /* AWAnimatedPoint.cpp in Sources */,
+				5F3A16BB104E857900BC9DCB /* AWAnimatedQuat.cpp in Sources */,
+				5F3A16BC104E857900BC9DCB /* AWAnimatedTexture.cpp in Sources */,
+				5F3A16BD104E857900BC9DCB /* AWBillboardController.cpp in Sources */,
+				5F3A16C2104E859B00BC9DCB /* AWBoidController.cpp in Sources */,
+				5F3A16C3104E859B00BC9DCB /* AWBumpMesh.cpp in Sources */,
+				5F3A16C4104E859B00BC9DCB /* AWCamera.cpp in Sources */,
+				5F3A16C5104E859B00BC9DCB /* AWEffectMgr.cpp in Sources */,
+				5F3A16C6104E859B00BC9DCB /* AWEnvironController.cpp in Sources */,
+				5F3A16C7104E859B00BC9DCB /* AWFace.cpp in Sources */,
+				5F3A16C8104E859B00BC9DCB /* AWFactory.cpp in Sources */,
+				5F3A16C9104E859B00BC9DCB /* AWFile.cpp in Sources */,
+				5F3A16CA104E859B00BC9DCB /* AWFlightController.cpp in Sources */,
+				5F3A16CB104E859B00BC9DCB /* AWFlock.cpp in Sources */,
+				5F3A16CC104E859B00BC9DCB /* AWFog.cpp in Sources */,
+				5F3A16CD104E859B00BC9DCB /* AWGLRenderer.cpp in Sources */,
+				5F3A16CE104E859B00BC9DCB /* AWImageProcessor.cpp in Sources */,
+				5F3A16CF104E859B00BC9DCB /* AWLight.cpp in Sources */,
+				5F3A16D0104E859B00BC9DCB /* AWMaterial.cpp in Sources */,
+				5F3A16D1104E859B00BC9DCB /* AWMatrix4.cpp in Sources */,
+				5F3A16D2104E859B00BC9DCB /* AWMesh.cpp in Sources */,
+				5F3A16E4104E85C200BC9DCB /* AWNode.cpp in Sources */,
+				5F3A16E5104E85C200BC9DCB /* AWNormalMapTexture.cpp in Sources */,
+				5F3A16E6104E85C200BC9DCB /* AWObject.cpp in Sources */,
+				5F3A16E7104E85C200BC9DCB /* AWPerfCnt.cpp in Sources */,
+				5F3A16E8104E85C200BC9DCB /* AWPersistable.cpp in Sources */,
+				5F3A16E9104E85C200BC9DCB /* AWPoint.cpp in Sources */,
+				5F3A16EA104E85C200BC9DCB /* AWPositionKey.cpp in Sources */,
+				5F3A16EB104E85C200BC9DCB /* AWQuat.cpp in Sources */,
+				5F3A16EC104E85C200BC9DCB /* AWRenderPass.cpp in Sources */,
+				5F3A16ED104E85C200BC9DCB /* AWRenderState.cpp in Sources */,
+				5F3A16EE104E85C200BC9DCB /* AWRocket.cpp in Sources */,
+				5F3A16EF104E85C200BC9DCB /* AWRotationKey.cpp in Sources */,
+				5F3A16F0104E85C200BC9DCB /* AWScene.cpp in Sources */,
+				5F3A16F1104E85C200BC9DCB /* AWSea.cpp in Sources */,
+				5F3A16F2104E85C200BC9DCB /* AWPlayer.cpp in Sources */,
+				5F3A16F3104E85C200BC9DCB /* AWStore.cpp in Sources */,
+				5F3A16F4104E85C200BC9DCB /* AWTexture.cpp in Sources */,
+				5F3A16F5104E85C200BC9DCB /* AWTextureEffect.cpp in Sources */,
+				5F3A16F6104E85C200BC9DCB /* AWTextureUnit.cpp in Sources */,
+				5F3A16F7104E85C200BC9DCB /* AWTimerBarCtl.cpp in Sources */,
+				5F3A16F8104E85C200BC9DCB /* AWTransformController.cpp in Sources */,
+				5F3A16F9104E85C200BC9DCB /* AWTVertexList.cpp in Sources */,
+				5F3A16FA104E85C200BC9DCB /* AWWorker.cpp in Sources */,
+				5F816642104EA3CD00A85620 /* kmatrix.cpp in Sources */,
+				5F93811211EA37E400ED0443 /* ES1Renderer.mm in Sources */,
+				5FD9A86C11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */,
+				5FA6BD7A11F8DC5700D56488 /* AWVertexProgram.cpp in Sources */,
+				5FA6BEAB11F8EB0C00D56488 /* ES2Renderer.mm in Sources */,
+				5F344DCF13DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */,
+				5F344DD313DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */,
+				5F344DD713DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */,
+				5F344DDB13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD6021B1027918B00FA1598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD6021C1027918B00FA1598 /* main.m in Sources */,
+				5FD6021D1027918B00FA1598 /* iCritterAppDelegate.m in Sources */,
+				5FD6021E1027918B00FA1598 /* iCritterViewController.m in Sources */,
+				5FD6021F1027918B00FA1598 /* EAGLView.mm in Sources */,
+				5FD602201027918B00FA1598 /* AWDownloader.mm in Sources */,
+				5FD602211027918B00FA1598 /* AWRemoteSceneInfo.mm in Sources */,
+				5FD602221027918B00FA1598 /* AWSceneInfo.mm in Sources */,
+				5FD602231027918B00FA1598 /* AWSceneMgr.mm in Sources */,
+				5FD602241027918B00FA1598 /* adler32.c in Sources */,
+				5FD602251027918B00FA1598 /* AWMinigzip.cpp in Sources */,
+				5FD602261027918B00FA1598 /* compress.c in Sources */,
+				5FD602271027918B00FA1598 /* crc32.c in Sources */,
+				5FD602281027918B00FA1598 /* deflate.c in Sources */,
+				5FD602291027918B00FA1598 /* gzio.c in Sources */,
+				5FD6022A1027918B00FA1598 /* infback.c in Sources */,
+				5FD6022B1027918B00FA1598 /* inffast.c in Sources */,
+				5FD6022C1027918B00FA1598 /* inflate.c in Sources */,
+				5FD6022D1027918B00FA1598 /* inftrees.c in Sources */,
+				5FD6022E1027918B00FA1598 /* minigzip.c in Sources */,
+				5FD6022F1027918B00FA1598 /* trees.c in Sources */,
+				5FD602301027918B00FA1598 /* uncompr.c in Sources */,
+				5FD602311027918B00FA1598 /* zutil.c in Sources */,
+				5FD602321027918B00FA1598 /* AWAnimatedFloat.cpp in Sources */,
+				5FD602331027918B00FA1598 /* AWAnimatedPoint.cpp in Sources */,
+				5FD602341027918B00FA1598 /* AWAnimatedQuat.cpp in Sources */,
+				5FD602351027918B00FA1598 /* AWAnimatedTexture.cpp in Sources */,
+				5FD602361027918B00FA1598 /* AWBillboardController.cpp in Sources */,
+				5FD602371027918B00FA1598 /* AWBoidController.cpp in Sources */,
+				5FD602381027918B00FA1598 /* AWBumpMesh.cpp in Sources */,
+				5FD602391027918B00FA1598 /* AWCamera.cpp in Sources */,
+				5FD6023A1027918B00FA1598 /* AWEffectMgr.cpp in Sources */,
+				5FD6023B1027918B00FA1598 /* AWEnvironController.cpp in Sources */,
+				5FD6023C1027918B00FA1598 /* AWFace.cpp in Sources */,
+				5FD6023D1027918B00FA1598 /* AWFactory.cpp in Sources */,
+				5FD6023E1027918B00FA1598 /* AWFile.cpp in Sources */,
+				5FD6023F1027918B00FA1598 /* AWFlightController.cpp in Sources */,
+				5FD602401027918B00FA1598 /* AWFlock.cpp in Sources */,
+				5FD602411027918B00FA1598 /* AWFog.cpp in Sources */,
+				5FD602421027918B00FA1598 /* AWGLRenderer.cpp in Sources */,
+				5FD602431027918B00FA1598 /* AWImageProcessor.cpp in Sources */,
+				5FD602441027918B00FA1598 /* AWLight.cpp in Sources */,
+				5FD602451027918B00FA1598 /* AWMaterial.cpp in Sources */,
+				5FD602461027918B00FA1598 /* AWMatrix4.cpp in Sources */,
+				5FD602471027918B00FA1598 /* AWMesh.cpp in Sources */,
+				5FD602481027918B00FA1598 /* AWNode.cpp in Sources */,
+				5FD602491027918B00FA1598 /* AWNormalMapTexture.cpp in Sources */,
+				5FD6024A1027918B00FA1598 /* AWObject.cpp in Sources */,
+				5FD6024B1027918B00FA1598 /* AWPerfCnt.cpp in Sources */,
+				5FD6024C1027918B00FA1598 /* AWPersistable.cpp in Sources */,
+				5FD6024D1027918B00FA1598 /* AWPoint.cpp in Sources */,
+				5FD6024E1027918B00FA1598 /* AWPositionKey.cpp in Sources */,
+				5FD6024F1027918B00FA1598 /* AWQuat.cpp in Sources */,
+				5FD602501027918B00FA1598 /* AWRenderPass.cpp in Sources */,
+				5FD602511027918B00FA1598 /* AWRenderState.cpp in Sources */,
+				5FD602521027918B00FA1598 /* AWRocket.cpp in Sources */,
+				5FD602531027918B00FA1598 /* AWRotationKey.cpp in Sources */,
+				5FD602541027918B00FA1598 /* AWScene.cpp in Sources */,
+				5FD602551027918B00FA1598 /* AWSea.cpp in Sources */,
+				5FD602561027918B00FA1598 /* AWPlayer.cpp in Sources */,
+				5FD602571027918B00FA1598 /* AWStore.cpp in Sources */,
+				5FD602581027918B00FA1598 /* AWTexture.cpp in Sources */,
+				5FD602591027918B00FA1598 /* AWTextureEffect.cpp in Sources */,
+				5FD6025A1027918B00FA1598 /* AWTextureUnit.cpp in Sources */,
+				5FD6025B1027918B00FA1598 /* AWTimerBarCtl.cpp in Sources */,
+				5FD6025C1027918B00FA1598 /* AWTransformController.cpp in Sources */,
+				5FD6025D1027918B00FA1598 /* AWTVertexList.cpp in Sources */,
+				5FD6025E1027918B00FA1598 /* AWWorker.cpp in Sources */,
+				5FD6025F1027918B00FA1598 /* LocalScenesController.m in Sources */,
+				5FD602601027918B00FA1598 /* RemoteScenesController.m in Sources */,
+				5FD602611027918B00FA1598 /* RootViewController.m in Sources */,
+				5FD602621027918B00FA1598 /* SceneViewController.m in Sources */,
+				5F93811411EA37E400ED0443 /* ES1Renderer.mm in Sources */,
+				5FD9A86E11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */,
+				5FA6BD7C11F8DC5700D56488 /* AWVertexProgram.cpp in Sources */,
+				5FA6BEAD11F8EB0C00D56488 /* ES2Renderer.mm in Sources */,
+				5F344DD013DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */,
+				5F344DD413DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */,
+				5F344DD813DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */,
+				5F344DDC13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD60274102791DF00FA1598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD602911027939E00FA1598 /* iCritterAppTests.mm in Sources */,
+				5F3A16B9104E854F00BC9DCB /* AWAnimatedFloat.cpp in Sources */,
+				5F3A16BE104E857A00BC9DCB /* AWAnimatedPoint.cpp in Sources */,
+				5F3A16BF104E857A00BC9DCB /* AWAnimatedQuat.cpp in Sources */,
+				5F3A16C0104E857A00BC9DCB /* AWAnimatedTexture.cpp in Sources */,
+				5F3A16C1104E857A00BC9DCB /* AWBillboardController.cpp in Sources */,
+				5F3A16D3104E859C00BC9DCB /* AWBoidController.cpp in Sources */,
+				5F3A16D4104E859C00BC9DCB /* AWBumpMesh.cpp in Sources */,
+				5F3A16D5104E859C00BC9DCB /* AWCamera.cpp in Sources */,
+				5F3A16D6104E859C00BC9DCB /* AWEffectMgr.cpp in Sources */,
+				5F3A16D7104E859C00BC9DCB /* AWEnvironController.cpp in Sources */,
+				5F3A16D8104E859C00BC9DCB /* AWFace.cpp in Sources */,
+				5F3A16D9104E859C00BC9DCB /* AWFactory.cpp in Sources */,
+				5F3A16DA104E859C00BC9DCB /* AWFile.cpp in Sources */,
+				5F3A16DB104E859C00BC9DCB /* AWFlightController.cpp in Sources */,
+				5F3A16DC104E859C00BC9DCB /* AWFlock.cpp in Sources */,
+				5F3A16DD104E859C00BC9DCB /* AWFog.cpp in Sources */,
+				5F3A16DE104E859C00BC9DCB /* AWGLRenderer.cpp in Sources */,
+				5F3A16DF104E859C00BC9DCB /* AWImageProcessor.cpp in Sources */,
+				5F3A16E0104E859C00BC9DCB /* AWLight.cpp in Sources */,
+				5F3A16E1104E859C00BC9DCB /* AWMaterial.cpp in Sources */,
+				5F3A16E2104E859C00BC9DCB /* AWMatrix4.cpp in Sources */,
+				5F3A16E3104E859C00BC9DCB /* AWMesh.cpp in Sources */,
+				5F3A16FB104E85C300BC9DCB /* AWNode.cpp in Sources */,
+				5F3A16FC104E85C300BC9DCB /* AWNormalMapTexture.cpp in Sources */,
+				5F3A16FD104E85C300BC9DCB /* AWObject.cpp in Sources */,
+				5F3A16FE104E85C300BC9DCB /* AWPerfCnt.cpp in Sources */,
+				5F3A16FF104E85C300BC9DCB /* AWPersistable.cpp in Sources */,
+				5F3A1700104E85C300BC9DCB /* AWPoint.cpp in Sources */,
+				5F3A1701104E85C300BC9DCB /* AWPositionKey.cpp in Sources */,
+				5F3A1702104E85C300BC9DCB /* AWQuat.cpp in Sources */,
+				5F3A1703104E85C300BC9DCB /* AWRenderPass.cpp in Sources */,
+				5F3A1704104E85C300BC9DCB /* AWRenderState.cpp in Sources */,
+				5F3A1705104E85C300BC9DCB /* AWRocket.cpp in Sources */,
+				5F3A1706104E85C300BC9DCB /* AWRotationKey.cpp in Sources */,
+				5F3A1707104E85C300BC9DCB /* AWScene.cpp in Sources */,
+				5F3A1708104E85C300BC9DCB /* AWSea.cpp in Sources */,
+				5F3A1709104E85C300BC9DCB /* AWPlayer.cpp in Sources */,
+				5F3A170A104E85C300BC9DCB /* AWStore.cpp in Sources */,
+				5F3A170B104E85C300BC9DCB /* AWTexture.cpp in Sources */,
+				5F3A170C104E85C300BC9DCB /* AWTextureEffect.cpp in Sources */,
+				5F3A170D104E85C300BC9DCB /* AWTextureUnit.cpp in Sources */,
+				5F3A170E104E85C300BC9DCB /* AWTimerBarCtl.cpp in Sources */,
+				5F3A170F104E85C300BC9DCB /* AWTransformController.cpp in Sources */,
+				5F3A1710104E85C300BC9DCB /* AWTVertexList.cpp in Sources */,
+				5F3A1711104E85C300BC9DCB /* AWWorker.cpp in Sources */,
+				5F816641104EA3CD00A85620 /* kmatrix.cpp in Sources */,
+				5F93811111EA37E400ED0443 /* ES1Renderer.mm in Sources */,
+				5FD9A86B11F38B9D00A04041 /* MyVideoBuffer.mm in Sources */,
+				5FA6BD7911F8DC5700D56488 /* AWVertexProgram.cpp in Sources */,
+				5FA6BEAA11F8EB0C00D56488 /* ES2Renderer.mm in Sources */,
+				5F344DD113DB6F5D003591B7 /* AWGL1Renderer.cpp in Sources */,
+				5F344DD513DB6F5D003591B7 /* AWGL1RenderState.cpp in Sources */,
+				5F344DD913DB6F5D003591B7 /* AWGL2Renderer.cpp in Sources */,
+				5F344DDD13DB6F5D003591B7 /* AWGL2RenderState.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD602801027920300FA1598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD60277102791DF00FA1598 /* iCritterTests */;
+			targetProxy = 5FD6027F1027920300FA1598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNUSED_VALUE = NO;
+				INFOPLIST_FILE = "iCritter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = iCritter;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iCritter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = iCritter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F289D9D101E362E0025E23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = LogicTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F289D9E101E362E0025E23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = LogicTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5F289D9F101E362E0025E23F /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = LogicTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AdHoc;
+		};
+		5F289DA0101E362E0025E23F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = LogicTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		5FD6026B1027918B00FA1598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNUSED_VALUE = NO;
+				INFOPLIST_FILE = "/Users/twcgilbert/Development/Code/iPhone/iCritter/iCritter-Info.plist";
+				PRODUCT_NAME = iCritter;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FD6026C1027918B00FA1598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tom Gilbert";
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "/Users/twcgilbert/Development/Code/iPhone/iCritter/iCritter-Info.plist";
+				PRODUCT_NAME = iCritter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5896C8C-65FF-45DB-81F3-9A1685F6D913";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5FD6026D1027918B00FA1598 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tom Gilbert";
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "/Users/twcgilbert/Development/Code/iPhone/iCritter/iCritter-Info.plist";
+				PRODUCT_NAME = iCritter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DE8DE134-2F6B-4CFF-BA31-636072460D10";
+				SDKROOT = iphoneos;
+			};
+			name = AdHoc;
+		};
+		5FD6026E1027918B00FA1598 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tom Gilbert";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "/Users/twcgilbert/Development/Code/iPhone/iCritter/iCritter-Info.plist";
+				PRODUCT_NAME = iCritter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5896C8C-65FF-45DB-81F3-9A1685F6D913";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		5FD6027A102791E000FA1598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iCritterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = iCritterTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5FD6027B102791E000FA1598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iCritterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = iCritterTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5FD6027C102791E000FA1598 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iCritterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = iCritterTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AdHoc;
+		};
+		5FD6027D102791E000FA1598 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iCritterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = iCritterTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		5FEE0AA41017C2590078247E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tom Gilbert";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CE38F6AE-B439-4D43-BC69-268D7F697A62";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		5FEE0AA51017C2590078247E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tom Gilbert";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iCritter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = iCritter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5896C8C-65FF-45DB-81F3-9A1685F6D913";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		5FEE0AA61017C2A30078247E /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tom Gilbert";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DE8DE134-2F6B-4CFF-BA31-636072460D10";
+				SDKROOT = iphoneos;
+			};
+			name = AdHoc;
+		};
+		5FEE0AA71017C2A40078247E /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tom Gilbert";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCritter_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "iCritter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = iCritter;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB3783B5-EF84-412E-B767-FE25C27FAB2C";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AdHoc;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_USE_GCC3_PFE_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iCritter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				5FEE0AA71017C2A40078247E /* AdHoc */,
+				5FEE0AA51017C2590078247E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F289DA1101E362F0025E23F /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F289D9D101E362E0025E23F /* Debug */,
+				5F289D9E101E362E0025E23F /* Release */,
+				5F289D9F101E362E0025E23F /* AdHoc */,
+				5F289DA0101E362E0025E23F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD6026A1027918B00FA1598 /* Build configuration list for PBXNativeTarget "iCritterTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD6026B1027918B00FA1598 /* Debug */,
+				5FD6026C1027918B00FA1598 /* Release */,
+				5FD6026D1027918B00FA1598 /* AdHoc */,
+				5FD6026E1027918B00FA1598 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD6027E102791E000FA1598 /* Build configuration list for PBXNativeTarget "iCritterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD6027A102791E000FA1598 /* Debug */,
+				5FD6027B102791E000FA1598 /* Release */,
+				5FD6027C102791E000FA1598 /* AdHoc */,
+				5FD6027D102791E000FA1598 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iCritter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				5FEE0AA61017C2A30078247E /* AdHoc */,
+				5FEE0AA41017C2590078247E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
