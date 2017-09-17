@@ -1,0 +1,610 @@
+Alteredsaver log file
+CRC Validation 1
+AWSpaceGnats constructor
+
+*resetData*
+
+  set AUTOSWITCH TIME 60.000000
+
+set section timeout to 0.000000
+User mode found to be: BPP 32,  w 1024,  h768, refresh 85
+searching directory C:\3DSMAX3\Meshes\*.tnt
+Setting current SaverGame to C:\3DSMAX3\Meshes\goSpaceGnats.tnt
+Found 70 scenes
+ adding AlteredWorld: C:\3DSMAX3\Meshes\alight.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\all.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\aniCamChild.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\aniLight.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\b1.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\b2.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\background.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\balls.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bird.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bird_bomb.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\blob.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\blue.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\box.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\box99.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bump.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bumpBox.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bumpFace.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bumpMoveFace.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bumpMoveFace2.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bumpSphere.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\bumpTest.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\caveOLD.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\cave_butterfly.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\cavetes2t.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\crawly_bug.tnt
+ selected scene C:\3DSMAX3\Meshes\crawly_bug.tnt at index: 24
+ adding AlteredWorld: C:\3DSMAX3\Meshes\demo.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\demoMostRecent.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\demoOLD.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\dragon.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\dream_tunnel.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\envspin.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\face.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\faceBump.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\faceBumpNoSpec.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\fajsdfsa.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\fsdf.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\game.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\ghg.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\gnats.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\goSpaceGnats.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\jumping_bott.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\justBox.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\light.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\lock.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\mixBox.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\move.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\multicube.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\noBumpBalls.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\nobumpSphere.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\notex.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\noway.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\play_house.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\psychadelic.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\s.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\see.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\space_gnats.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\spec.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\spherereflect.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\spider.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\spidergallop.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\sword.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\tbox.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\test2.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\testBox.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\testBumpSphere.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\tface2.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\time_tunnel.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\tlock.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\tube_face.tnt
+ adding AlteredWorld: C:\3DSMAX3\Meshes\tubular.tnt
+Checking user input method - 
+Load scene from AWFile C:\3DSMAX3\Meshes\crawly_bug.tnt
+Composite TNT file - target section set to: 1  curLevel 0
+
+Loading AlteredWorld C:\3DSMAX3\Meshes\crawly_bug.tnt section 1 
+loading AWNode - 
+loading AWNode - Box05
+loading AWNode - Line03
+Processed: Line03 with faces 204 and 507 degenerate vertices
+loading AWNode - Line04
+Processed: Line04 with faces 194 and 479 degenerate vertices
+loading AWNode - head
+loading AWNode - eyes01
+Processed: eyes01 with faces 521 and 229 degenerate vertices
+loading AWNode - Palpr
+Processed: Palpr with faces 230 and 0 degenerate vertices
+loading AWNode - Palpl
+Processed: Palpl with faces 230 and 0 degenerate vertices
+Processed: head with faces 231 and 0 degenerate vertices
+Processed: Box05 with faces 208 and 0 degenerate vertices
+loading AWNode - Box06
+loading AWNode - Line05
+Processed: Line05 with faces 204 and 507 degenerate vertices
+loading AWNode - Line06
+Processed: Line06 with faces 194 and 479 degenerate vertices
+Processed: Box06 with faces 208 and 0 degenerate vertices
+loading AWNode - Box07
+loading AWNode - Line07
+Processed: Line07 with faces 204 and 507 degenerate vertices
+loading AWNode - Line08
+Processed: Line08 with faces 194 and 479 degenerate vertices
+Processed: Box07 with faces 208 and 0 degenerate vertices
+loading AWNode - Box08
+loading AWNode - Line09
+Processed: Line09 with faces 204 and 507 degenerate vertices
+loading AWNode - Line10
+Processed: Line10 with faces 194 and 479 degenerate vertices
+Processed: Box08 with faces 208 and 0 degenerate vertices
+loading AWNode - Box09
+loading AWNode - Line11
+Processed: Line11 with faces 204 and 507 degenerate vertices
+loading AWNode - Line12
+Processed: Line12 with faces 194 and 479 degenerate vertices
+Processed: Box09 with faces 208 and 0 degenerate vertices
+loading AWNode - Box10
+loading AWNode - Line13
+Processed: Line13 with faces 204 and 507 degenerate vertices
+loading AWNode - Line14
+Processed: Line14 with faces 194 and 479 degenerate vertices
+Processed: Box10 with faces 208 and 0 degenerate vertices
+loading AWNode - Box11
+loading AWNode - Line15
+Processed: Line15 with faces 204 and 507 degenerate vertices
+loading AWNode - Line16
+Processed: Line16 with faces 194 and 479 degenerate vertices
+Processed: Box11 with faces 208 and 0 degenerate vertices
+loading AWNode - Box12
+loading AWNode - Line17
+Processed: Line17 with faces 204 and 507 degenerate vertices
+loading AWNode - Line18
+Processed: Line18 with faces 194 and 479 degenerate vertices
+Processed: Box12 with faces 208 and 0 degenerate vertices
+loading AWNode - Box13
+loading AWNode - Line19
+Processed: Line19 with faces 204 and 507 degenerate vertices
+loading AWNode - Line20
+Processed: Line20 with faces 194 and 479 degenerate vertices
+Processed: Box13 with faces 208 and 0 degenerate vertices
+loading AWNode - Box14
+loading AWNode - Line21
+Processed: Line21 with faces 204 and 507 degenerate vertices
+loading AWNode - Line22
+Processed: Line22 with faces 194 and 479 degenerate vertices
+loading AWNode - Line02
+Processed: Line02 with faces 194 and 479 degenerate vertices
+loading AWNode - Line01
+Processed: Line01 with faces 204 and 507 degenerate vertices
+loading AWNode - Camera01
+Processed: Box14 with faces 208 and 0 degenerate vertices
+loading AWNode - Line23
+Processed: Line23 with faces 0 and 0 degenerate vertices
+loading AWNode - QuadPatch01
+loading AWNode - VIFS01
+Processed: VIFS01 with faces 716 and 0 degenerate vertices
+Processed: QuadPatch01 with faces 72 and 0 degenerate vertices
+loading AWNode - water
+Processed: water with faces 72 and 0 degenerate vertices
+loading AWNode - Sphere01
+Processed: Sphere01 with faces 224 and 50 degenerate vertices
+loading AWNode - Camera02
+loading AWNode - Omni01
+loading AWNode - Omni02
+loading AWNode - Spot01
+Check to see if current camera is a 'Game Camera'
+Switching screen mode to full 1, BPP 32,  w 1024,  h768
+  Refresh change advised
+WindowProc:    81 : WM_NCCREATE              wParam          0  lParam     12e758
+WindowProc:    83 : WM_NCCALCSIZE            wParam          0  lParam     12e794
+WindowProc:     1 : WM_CREATE                wParam          0  lParam     12e730
+
+
+OpenGL Vendor: NVIDIA Corporation  Version 1.2.2
+Supported Extensions: GL_ARB_imaging GL_ARB_multisample GL_ARB_multitexture GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_dot3 GL_ARB_transpose_matrix GL_S3_s3tc GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_packed_pixels GL_EXT_paletted_texture GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shared_texture_palette GL_EXT_stencil_wrap GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_cube_map GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_vertex_weighting GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_evaluators GL_NV_fence GL_NV_fog_distance GL_NV_light_max_exponent GL_NV_packed_depth_stencil GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_program GL_SGIS_generate_mipmap GL_SGIS_multitexture GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_WIN_swap_hint WGL_EXT_swap_control 
+
+
+  GL_EXT_compiled_vertex_array supported:	1
+  GL_EXT_blend_color supported:	1
+  GL_EXT_texture_compression_s3tc supported:	1
+  SGIS_generate_mipmap supported:	1
+  GL_EXT_texture_cube_map supported:	1 
+  Number of texture units:	4
+  GL_EXT_texture_env_combine supported:	1
+  GL_ARB_multitexture supported:	1
+  GL_EXT_separate_specular_color supported:	1
+  GL_NV_vertex_program supported:	1
+  GL_NV_register_combiners supported:	1 
+  Destination ALPHA supported:	0
+Enable GL_LIGHTING
+ supplying Ambient (0.043140, 0.043140, 0.043140)
+ Enable GL_LIGHT 0
+ Enable GL_LIGHT 1
+ Enable GL_LIGHT 2
+
+Texture: Material #4 has 1 frames
+ Texture init GL_TEXTURE_2D: Material #4  ID: 1  mipMap: 1
+  init frame: 0 with ID 1
+Texture: Material #3 has 1 frames
+ Texture init GL_TEXTURE_2D: Material #3  ID: 2  mipMap: 1
+  init frame: 0 with ID 2
+Texture: Material #8 has 1 frames
+ Texture init GL_TEXTURE_2D: Material #8  ID: 3  mipMap: 1
+  init frame: 0 with ID 3
+Texture: VMtl01 has 1 frames
+ Texture init GL_TEXTURE_2D: VMtl01  ID: 4  mipMap: 1
+  init frame: 0 with ID 4
+
+Disable GL_FOG
+Setting clear colour: (0.000000, 0.000000, 0.000000, 0.000000)
+
+Client Area TL (0, 0)  BR (768, 1024)
+
+MainZone TL (269, 358)  BR (499, 665)
+
+Window Center (512, 384)
+WindowProc:     5 : WM_SIZE                  wParam          0  lParam    3000400
+
+Client Area TL (0, 0)  BR (768, 1024)
+
+MainZone TL (269, 358)  BR (499, 665)
+
+Window Center (512, 384)
+WindowProc:     3 : WM_MOVE                  wParam          0  lParam          0
+
+Client Area TL (0, 0)  BR (768, 1024)
+
+MainZone TL (269, 358)  BR (499, 665)
+
+Window Center (512, 384)
+WindowProc:    18 : WM_SHOWWINDOW            wParam          1  lParam          0
+WindowProc:    46 : WM_WINDOWPOSCHANGING     wParam          0  lParam     12e8ec
+WindowProc:    46 : WM_WINDOWPOSCHANGING     wParam          0  lParam     12e8ec
+WindowProc:    1c : WM_ACTIVATEAPP           wParam          1  lParam        4b8
+WindowProc:    86 : WM_NCACTIVATE            wParam          1  lParam          0
+WindowProc:     6 : WM_ACTIVATE              wParam          1  lParam          0
+OnActivate 6
+Switching screen mode to full 1, BPP 32,  w 1024,  h768
+  Refresh change advised
+WindowProc:   281 :                          wParam          1  lParam   c000000f
+WindowProc:     7 : WM_SETFOCUS              wParam          0  lParam          0
+SoundProvider::play(1, -1, 0)
+WindowProc:    85 : WM_NCPAINT               wParam          1  lParam          0
+WindowProc:    14 : WM_ERASEBKGND            wParam   510109a9  lParam          0
+WindowProc:    47 : WM_WINDOWPOSCHANGED      wParam          0  lParam     12e8ec
+WindowProc:     f : WM_PAINT                 wParam          0  lParam          0
+WindowProc:    88 :                          wParam          4  lParam          0
+WindowProc:    84 : WM_NCHITTEST             wParam          0  lParam    1800200
+WindowProc:    84 : WM_NCHITTEST             wParam          0  lParam    1800200
+WindowProc:    20 : WM_SETCURSOR             wParam     1102c6  lParam    2000001
+GameLoop  :   200 : WM_MOUSEMOVE             wParam          0  lParam    1800200
+WindowProc:   200 : WM_MOUSEMOVE             wParam          0  lParam    1800200
+OnMouseMove
+
+
+CALC TRANSFORM 0.016358s
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+Building effects for NVIDIA or other card...
+ - prepared for rendering with 1 passes
+
+
+CALC TRANSFORM 0.029278s
+
+
+CALC TRANSFORM 0.038447s
+
+
+CALC TRANSFORM 0.050188s
+
+
+CALC TRANSFORM 0.061953s
+
+
+CALC TRANSFORM 0.073715s
+
+
+CALC TRANSFORM 0.085483s
+
+
+CALC TRANSFORM 0.097243s
+
+
+CALC TRANSFORM 0.109004s
+
+
+CALC TRANSFORM 0.120767s
+
+
+CALC TRANSFORM 0.132533s
+
+
+CALC TRANSFORM 0.144295s
+
+
+CALC TRANSFORM 0.156063s
+
+
+CALC TRANSFORM 0.167821s
+
+
+CALC TRANSFORM 0.179583s
+
+
+CALC TRANSFORM 0.191350s
+
+
+CALC TRANSFORM 0.203112s
+
+
+CALC TRANSFORM 0.214881s
+
+
+CALC TRANSFORM 0.226641s
+
+
+CALC TRANSFORM 0.238405s
+
+
+CALC TRANSFORM 0.250165s
+
+
+CALC TRANSFORM 0.261931s
+
+
+CALC TRANSFORM 0.273690s
+
+
+CALC TRANSFORM 0.285459s
+
+
+CALC TRANSFORM 0.297241s
+
+
+CALC TRANSFORM 0.308983s
+
+
+CALC TRANSFORM 0.320746s
+
+
+CALC TRANSFORM 0.332510s
+
+
+CALC TRANSFORM 0.344270s
+
+
+CALC TRANSFORM 0.356040s
+
+
+CALC TRANSFORM 0.367799s
+
+
+CALC TRANSFORM 0.379562s
+
+
+CALC TRANSFORM 0.391325s
+
+
+CALC TRANSFORM 0.403089s
+
+
+CALC TRANSFORM 0.414853s
+
+
+CALC TRANSFORM 0.426618s
+
+
+CALC TRANSFORM 0.438380s
+
+
+CALC TRANSFORM 0.450143s
+
+
+CALC TRANSFORM 0.461905s
+
+
+CALC TRANSFORM 0.473670s
+
+
+CALC TRANSFORM 0.485438s
+
+
+CALC TRANSFORM 0.497199s
+
+
+CALC TRANSFORM 0.508961s
+
+
+CALC TRANSFORM 0.520724s
+
+
+CALC TRANSFORM 0.532483s
+
+
+CALC TRANSFORM 0.544247s
+
+
+CALC TRANSFORM 0.556016s
+
+
+CALC TRANSFORM 0.567777s
+
+
+CALC TRANSFORM 0.579538s
+
+
+CALC TRANSFORM 0.591301s
+
+
+CALC TRANSFORM 0.603070s
+
+
+CALC TRANSFORM 0.614832s
+
+
+CALC TRANSFORM 0.626595s
+
+
+CALC TRANSFORM 0.638361s
+
+
+CALC TRANSFORM 0.650121s
+
+
+CALC TRANSFORM 0.661884s
+
+
+CALC TRANSFORM 0.673648s
+
+
+CALC TRANSFORM 0.685416s
+
+
+CALC TRANSFORM 0.697176s
+
+
+CALC TRANSFORM 0.708936s
+
+
+CALC TRANSFORM 0.720697s
+
+
+CALC TRANSFORM 0.732462s
+GameLoop  :   100 : WM_KEYFIRST | WM_KEYDOWN  wParam         1b  lParam      10001
+WindowProc:   100 : WM_KEYFIRST | WM_KEYDOWN  wParam         1b  lParam      10001
+WM_KEYDOWN received 27
+closeSaverWindow - Posting WM_CLOSE
+GameLoop  :   102 : WM_CHAR                  wParam         1b  lParam      10001
+WindowProc:   102 : WM_CHAR                  wParam         1b  lParam      10001
+GameLoop  :    10 : WM_CLOSE                 wParam          0  lParam          0
+WindowProc:    10 : WM_CLOSE                 wParam          0  lParam          0
+OnClose
+ Delete texture ID: 1
+ Delete texture ID: 2
+ Delete texture ID: 3
+ Delete texture ID: 4
+Deleted 4 textures
+Clean up Display Lists
+ Deleted 0 Display Lists
+
+Disable GL_LIGHT 0
+Disable GL_LIGHT 1
+Disable GL_LIGHT 2
+Disable GL_LIGHTING
+WindowProc:    46 : WM_WINDOWPOSCHANGING     wParam          0  lParam     12e6b4
+WindowProc:    47 : WM_WINDOWPOSCHANGED      wParam          0  lParam     12e6b4
+WindowProc:    86 : WM_NCACTIVATE            wParam          0  lParam          0
+WindowProc:     6 : WM_ACTIVATE              wParam          0  lParam          0
+OnActivate 6
+WindowProc:    1c : WM_ACTIVATEAPP           wParam          0  lParam        4b8
+WindowProc:     8 : WM_KILLFOCUS             wParam          0  lParam          0
+WindowProc:   281 :                          wParam          0  lParam   c000000f
+WindowProc:     2 : WM_DESTROY               wParam          0  lParam          0
+On Destroy - PostQuitMessage(0)
+WindowProc:    82 : WM_NCDESTROY             wParam          0  lParam          0
+WM_QUIT - Ending Message Loop
+Grabbing detected graphics capabilites for AWConfig:
+  Bump mapping support: 1
+  Cube Environment support: 1
+  S3 Texture Compression support: 1
+Terminating AlteredSaver!
+AWSpaceGnats Destructor

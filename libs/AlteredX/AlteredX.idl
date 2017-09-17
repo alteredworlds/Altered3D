@@ -1,0 +1,41 @@
+// AlteredX.idl : IDL source for AlteredX.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (AlteredX.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+#include "olectl.h"
+	
+
+	[
+		object,
+		uuid(4DC097C2-3812-4E54-AED2-F87840FDC0F0),
+	
+		helpstring("IAlteredXCtl Interface"),
+		pointer_default(unique)
+	]
+	interface IAlteredXCtl : IUnknown
+	{
+	};
+
+[
+	uuid(EDF03087-4D02-4F22-9CFF-8EC10125EDB3),
+	version(1.0),
+	helpstring("AlteredX 1.0 Type Library")
+]
+library ALTEREDXLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(8F2AFB98-BD3B-44EB-99EB-68A7F432C936),
+		helpstring("AlteredXCtl Class")
+	]
+	coclass AlteredXCtl
+	{
+		[default] interface IAlteredXCtl;
+	};
+};

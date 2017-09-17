@@ -1,0 +1,165 @@
+QMDX 4.13 SDK (Build 34)
+EMail / Download Distribution Version 07/98
+===========================================
+
+In your possession is a powerful interactive audio tool and a
+lot of useful information. The following text briefly describes
+the resources in this SDK. Spending a few minutes to read through
+this will save you from missing good stuff!
+
+
+QMDX: Powerful, FREE Interactive Audio
+======================================
+
+In this SDK you'll find everything you need to ease the
+development of advanced interactive digital audio applications
+for Microsoft(R) Windows(R), DirectSound(R) and DirectSound3D(R).
+
+We've solved the most bothersome challenges of DS/DS3D programming
+so that you can put more effort into content, and less into 
+nitty gritty coding and debugging.
+
+Hardware support is dramatically simplified for both accelerated
+and non-accelerated systems, yet you can retain as much control 
+as you desire.
+
+
+No Spring Chicken
+-----------------
+
+Even though QMDX is new, it is derived directly from an SDK which has
+years of development, refinement and application to its credit.
+
+That's why QMDX carries a version number of 4.11. This is fourth 
+generation interactive Windows audio technology with roots
+all the way back before DirectSound and Windows 95 had seen the 
+light of day.
+
+
+IMPORTANT NOTE
+==============
+
+You'll see plenty of reminders here and there, and you had to
+accept the conditions of our license agreement to install and use
+this software, but we'll state up front so it's clear:
+
+QMDX is free for you to use in any application apart from the
+creation of authoring tools. You are under no pressure or obligation
+to purchase any QSound product -- the whole idea of QMDX is to give
+you a tool that eases advanced audio development. You can go out 
+there and crank some killer titles. You need have no worries about 
+crawling up a learning curve only to find that the boss won't 
+foot the license fee -- THERE ISN'T ONE!
+
+However, you are effectively getting two SDK's in one. One of
+them is for evaluation only, and is, unlike QMDX, NOT free.
+
+QMixer Evaluation Included
+-------==========---------
+
+The SDK includes everything you need to evaluate QMDX's daddy,
+QMixer. Both QMDX and QMixer support DS3D hardware cards -- quite 
+elegantly, in fact. Both include their own, highly optimised mix
+engines to extend hardware capabilities and to render your audio
+on non-accelerated systems without additional coding.
+
+The QMDX mix engine is stereo, while QMixer has a full 3D software
+engine that puts some hardware cards to shame. We're sorry to say 
+we can't give that one away. It's here for you to evaluate.
+
+We want to emphasize that this is explicitly provided for your 
+convenience. In the past, to evaluate QMixer, you would have had to
+sign up for a 60 day trial period, blah blah... that's no longer
+necessary.
+
+Frankly, the two products are so closely related that they share 
+the same API. If we so much as included a demo of QMixer with the
+SDK, (and why wouldn't we?) or you picked up a game that has been 
+written with QMixer, between the two you would have effectively had 
+everything you needed to check it out anyway. We thought we'd save
+you the trouble of figuring this out for yourself and just make the
+whole thing legit. No sweaty palms!
+
+
+Contents of this SDK:
+
+Root:
+=====
+
+_contents.txt	This file
+
+_readme.txt	This file always contains a revision history. It is 
+		highly recommended that you read it carefully, especially
+		when downloading a new SDK.
+
+licence.txt
+licence.pdf	Your licence for this SDK in text and Adobe Acrobat formats.
+
+QM413API.doc
+QM413API.pdf	The QM SDK reference bible: your guide to the API in Word97
+		and Adobe PDF formats.
+
+qmdx.reg	Double-click on this to load useful defaults for the
+		QMShow demos into your registry. Since all demos (including
+		those you may create yourself from the source code) refer
+		to the registry for settings, be aware that loading these
+		into the registry will alter any settings saved there from
+		previous versions.
+
+EndUser
+=======		This directory contains an end-user license agreement that
+		may be used with little modification or integrated into your
+		standard end-user agreement for distribution of QMDX titles.
+		Note that this is a requirement of _your_ license to use QMDX.
+
+Examples
+========	A collection of simple console-mode programs illustrating basic
+		useful QM concepts.
+
+Qmdx
+====		Herein lie the goodies you need to compile a QMDX application,
+		as well as a version of the QMShow demo / experimentation
+		program compiled for QMDX.
+
+QMixer
+======		Likewise for QMixer. Your 27th reminder: QMixer is not free,
+		and is supplied as part of this SDK for evaluation only.
+
+QMShow
+======		Source and resources for the QMShow demo application.
+
+Waves
+=====		A minimal set of sounds to get you started playing with QMShow.
+		If you double-click on qmdx.reg (root SDK directory) one of the
+		settings saved is a relative path to these wave files for each
+		QMShow channel, so you can fire it up right away.
+
+--------------------------------------------------------------------------------
+
+Notes on QMShow
+===============
+   
+   QMShow (alias QMixShow, QMDXShow depending on the flavor) is a multi-
+   purpose test application with a cheasy graphical interface for you to 
+   laugh at. (We call the listener sprite "fathead.") 
+
+   Don't write QMShow off! It's a great platform for experimenting with
+   the supplied sound files -- or your own -- and the myriad features 
+   that QM provides. You can quickly configure buffer support options
+   and priority schemes, toggle various scaleability features (like pitch
+   shift interpolation) to assess the trade-offs, set distance mapping 
+   parameters etc. etc... move sounds around the listener or move the
+   listener around the sounds. A "Run paths" feature captures your mouse
+   movements so that you can loop short "scenes" with multiple sounds in
+   motion.
+
+   One precaution. Note that fathead really has a fat head! At the scale
+   shown, the head is actually about a meter across! Needless to say, it's
+   there as a rough reference only.
+
+   The Waves directory contains an assortment of short 22kHz sounds. Most
+   are mono, but one stereo file has been included to demonstrate how QM
+   handles stereo files, and hopefully to get you thinking about how useful
+   they can be. Refer to \waves\_readme.txt for further details.
+
+==================  QMDX SDK Contents Text File Ends =====================  

@@ -1,0 +1,32 @@
+EXPORTS
+	avi_get_error_string
+	avi_new
+	avi_delete
+	avi_open
+	avi_close
+	avi_video_stream_open
+	avi_video_getframe
+	avi_video_width
+	avi_video_height
+	avi_video_time_to_sample
+	avi_video_sample_to_time
+	avi_video_stream_length
+	avi_audio_stream_open
+	avi_audio_getframe
+	avi_audio_stream_length
+	avi_output_new
+	avi_output_delete
+	avi_output_put_frame
+	avi_output_open
+	avi_output_close
+	avi_output_get_error
+	cap_create
+	cap_destroy
+	cap_driver_connect
+	cap_set_callback_on_frame
+	cap_set_callback_on_error
+	cap_preview_rate
+	cap_preview
+	cap_set_video_format
+	cap_dlg_video_source
+

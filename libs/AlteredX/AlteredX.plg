@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AlteredX - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /tlb ".\AlteredX.tlb" /h "AlteredX.h" /iid "AlteredX_i.c" /Oicf "C:\3DGraphics\projects\AlteredX\AlteredX.idl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/AlteredX.res" /d "_DEBUG" "C:\3DGraphics\projects\AlteredX\AlteredX.rc"" 
+Creating temporary file "C:\DOCUME~1\tomwg\LOCALS~1\Temp\RSPDE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Debug/AlteredX.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ     /c 
+"C:\3DGraphics\projects\AlteredX\AlteredX.cpp"
+"C:\3DGraphics\projects\AlteredX\AlteredXCtl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tomwg\LOCALS~1\Temp\RSPDE.tmp" 
+Creating temporary file "C:\DOCUME~1\tomwg\LOCALS~1\Temp\RSPDF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AlteredX.pdb" /debug /machine:I386 /def:".\AlteredX.def" /out:"Debug/AlteredX.dll" /implib:"Debug/AlteredX.lib" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\AlteredX.obj
+.\Debug\AlteredX.res
+.\Debug\AlteredXCtl.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\tomwg\LOCALS~1\Temp\RSPDF.tmp"
+Creating temporary file "C:\DOCUME~1\tomwg\LOCALS~1\Temp\RSPE0.bat" with contents
+[
+@echo off
+regsvr32 /s /c ".\Debug\AlteredX.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+]
+Creating command line "C:\DOCUME~1\tomwg\LOCALS~1\Temp\RSPE0.bat"
+Creating Type Library...
+Microsoft (R) 32b/64b MIDL Compiler Version 6.00.0347 
+Copyright (c) Microsoft Corp 1991-2000. All rights reserved.
+Processing C:\3DGraphics\projects\AlteredX\AlteredX.idl
+AlteredX.idl
+Processing C:\MSSDK\include\oaidl.idl
+oaidl.idl
+Processing C:\MSSDK\include\objidl.idl
+objidl.idl
+Processing C:\MSSDK\include\unknwn.idl
+unknwn.idl
+Processing C:\MSSDK\include\wtypes.idl
+wtypes.idl
+Processing C:\MSSDK\include\basetsd.h
+basetsd.h
+Processing C:\MSSDK\include\guiddef.h
+guiddef.h
+Processing C:\MSSDK\include\ocidl.idl
+ocidl.idl
+Processing C:\MSSDK\include\oleidl.idl
+oleidl.idl
+Processing C:\MSSDK\include\servprov.idl
+servprov.idl
+Processing C:\MSSDK\include\urlmon.idl
+urlmon.idl
+Processing C:\MSSDK\include\msxml.idl
+msxml.idl
+C:\MSSDK\include\msxml.idl(51) : fatal error C1083: Cannot open include file: 'xmldom.idl': No such file or directory
+midl : command line error MIDL1003 : error returned by the C preprocessor (2)
+Error executing midl.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+AlteredX.dll - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

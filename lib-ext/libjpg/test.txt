@@ -1,0 +1,126 @@
+
+Microsoft (R) Program Maintenance Utility   Version 6.00.8168.0
+Copyright (C) Microsoft Corp 1988-1998. All rights reserved.
+
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Z7 -Od -DWIN32  -D_WIN32 -I. jdhuff.c
+jdhuff.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Z7 -Od -DWIN32  -D_WIN32 -I. jdphuff.c
+jdphuff.c
+jdhuff.h(28) : error C2061: syntax error : identifier 'INT32'
+jdhuff.h(30) : error C2061: syntax error : identifier 'valoffset'
+jdhuff.h(30) : error C2059: syntax error : ';'
+jdhuff.h(30) : error C2059: syntax error : '['
+jdhuff.h(46) : error C2059: syntax error : '}'
+jdhuff.h(51) : error C2143: syntax error : missing ')' before '*'
+jdhuff.h(51) : error C2081: 'd_derived_tbl' : name in formal parameter list illegal
+jdhuff.h(51) : error C2143: syntax error : missing '{' before '*'
+jdhuff.h(51) : error C2059: syntax error : ')'
+jdhuff.h(72) : error C2061: syntax error : identifier 'bit_buf_type'
+jdhuff.h(72) : error C2059: syntax error : ';'
+jdhuff.h(83) : error C2061: syntax error : identifier 'bit_buf_type'
+jdhuff.h(85) : error C2059: syntax error : '}'
+jdhuff.h(95) : error C2061: syntax error : identifier 'bit_buf_type'
+jdhuff.h(99) : error C2059: syntax error : '}'
+jdhuff.h(156) : error C2143: syntax error : missing ')' before '*'
+jdhuff.h(156) : error C2143: syntax error : missing '{' before '*'
+jdhuff.h(156) : error C2059: syntax error : 'type'
+jdhuff.h(156) : error C2059: syntax error : ')'
+jdhuff.h(201) : error C2143: syntax error : missing ')' before '*'
+jdhuff.h(201) : error C2143: syntax error : missing '{' before '*'
+jdhuff.h(201) : error C2059: syntax error : 'type'
+jdhuff.h(201) : error C2059: syntax error : ')'
+jdphuff.c(62) : error C2061: syntax error : identifier 'bitread_perm_state'
+jdphuff.c(69) : error C2143: syntax error : missing '{' before '*'
+jdphuff.c(71) : error C2143: syntax error : missing '{' before '*'
+jdphuff.c(72) : error C2059: syntax error : '}'
+jdphuff.c(74) : error C2143: syntax error : missing '{' before '*'
+jdphuff.c(94) : error C2146: syntax error : missing ';' before identifier 'entropy'
+jdphuff.c(94) : error C2065: 'entropy' : undeclared identifier
+jdphuff.c(94) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int *'
+jdphuff.c(94) : error C2146: syntax error : missing ';' before identifier 'cinfo'
+jdphuff.c(95) : error C2275: 'boolean' : illegal use of this type as an expression
+        jconfig.h(20) : see declaration of 'boolean'
+jdphuff.c(95) : error C2146: syntax error : missing ';' before identifier 'is_DC_band'
+jdphuff.c(95) : error C2065: 'is_DC_band' : undeclared identifier
+jdphuff.c(95) : error C2065: 'bad' : undeclared identifier
+jdphuff.c(96) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(97) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(98) : error C2275: 'jpeg_component_info' : illegal use of this type as an expression
+        jpeglib.h(181) : see declaration of 'jpeg_component_info'
+jdphuff.c(98) : error C2065: 'compptr' : undeclared identifier
+jdphuff.c(135) : error C2065: 'ci' : undeclared identifier
+jdphuff.c(137) : error C2065: 'coef_bit_ptr' : undeclared identifier
+jdphuff.c(137) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int *'
+jdphuff.c(138) : error C2109: subscript requires array or pointer type
+jdphuff.c(140) : error C2065: 'coefi' : undeclared identifier
+jdphuff.c(141) : error C2109: subscript requires array or pointer type
+jdphuff.c(141) : error C2109: subscript requires array or pointer type
+jdphuff.c(144) : error C2109: subscript requires array or pointer type
+jdphuff.c(144) : error C2106: '=' : left operand must be l-value
+jdphuff.c(151) : error C2223: left of '->pub' must point to struct/union
+jdphuff.c(153) : error C2223: left of '->pub' must point to struct/union
+jdphuff.c(156) : error C2223: left of '->pub' must point to struct/union
+jdphuff.c(158) : error C2223: left of '->pub' must point to struct/union
+jdphuff.c(162) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct jpeg_component_info *'
+jdphuff.c(168) : error C2065: 'tbl' : undeclared identifier
+jdphuff.c(168) : error C2223: left of '->dc_tbl_no' must point to struct/union
+jdphuff.c(169) : warning C4013: 'jpeg_make_d_derived_tbl' undefined; assuming extern returning int
+jdphuff.c(170) : error C2223: left of '->derived_tbls' must point to struct/union
+jdphuff.c(173) : error C2223: left of '->ac_tbl_no' must point to struct/union
+jdphuff.c(175) : error C2223: left of '->derived_tbls' must point to struct/union
+jdphuff.c(177) : error C2223: left of '->ac_derived_tbl' must point to struct/union
+jdphuff.c(177) : error C2223: left of '->derived_tbls' must point to struct/union
+jdphuff.c(180) : error C2223: left of '->saved' must point to struct/union
+jdphuff.c(184) : error C2223: left of '->bitstate' must point to struct/union
+jdphuff.c(185) : error C2223: left of '->bitstate' must point to struct/union
+jdphuff.c(186) : error C2223: left of '->pub' must point to struct/union
+jdphuff.c(189) : error C2223: left of '->saved' must point to struct/union
+jdphuff.c(192) : error C2223: left of '->restarts_to_go' must point to struct/union
+jdphuff.c(230) : error C2146: syntax error : missing ';' before identifier 'entropy'
+jdphuff.c(230) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int *'
+jdphuff.c(230) : error C2146: syntax error : missing ';' before identifier 'cinfo'
+jdphuff.c(231) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(235) : error C2223: left of '->bitstate' must point to struct/union
+jdphuff.c(236) : error C2223: left of '->bitstate' must point to struct/union
+jdphuff.c(244) : error C2223: left of '->saved' must point to struct/union
+jdphuff.c(246) : error C2223: left of '->saved' must point to struct/union
+jdphuff.c(249) : error C2223: left of '->restarts_to_go' must point to struct/union
+jdphuff.c(257) : error C2223: left of '->pub' must point to struct/union
+jdphuff.c(288) : error C2146: syntax error : missing ';' before identifier 'entropy'
+jdphuff.c(288) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int *'
+jdphuff.c(288) : error C2146: syntax error : missing ';' before identifier 'cinfo'
+jdphuff.c(289) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(290) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(291) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(292) : error C2275: 'JBLOCKROW' : illegal use of this type as an expression
+        jpeglib.h(73) : see declaration of 'JBLOCKROW'
+jdphuff.c(292) : error C2146: syntax error : missing ';' before identifier 'block'
+jdphuff.c(292) : error C2065: 'block' : undeclared identifier
+jdphuff.c(293) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(293) : error C2143: syntax error : missing ';' before 'type'
+jdphuff.c(293) : error C2065: 'bitread_working_state' : undeclared identifier
+jdphuff.c(293) : error C2146: syntax error : missing ';' before identifier 'br_state'
+jdphuff.c(293) : error C2065: 'br_state' : undeclared identifier
+jdphuff.c(294) : error C2275: 'savable_state' : illegal use of this type as an expression
+        jdphuff.c(35) : see declaration of 'savable_state'
+jdphuff.c(294) : error C2146: syntax error : missing ';' before identifier 'state'
+jdphuff.c(295) : error C2065: 'd_derived_tbl' : undeclared identifier
+jdphuff.c(295) : warning C4552: '*' : operator has no effect; expected operator with side-effect
+jdphuff.c(296) : error C2275: 'jpeg_component_info' : illegal use of this type as an expression
+        jpeglib.h(181) : see declaration of 'jpeg_component_info'
+jdphuff.c(300) : error C2223: left of '->restarts_to_go' must point to struct/union
+jdphuff.c(308) : error C2223: left of '->pub' must point to struct/union
+jdphuff.c(311) : error C2224: left of '.cinfo' must have struct/union type
+jdphuff.c(311) : error C2224: left of '.next_input_byte' must have struct/union type
+jdphuff.c(311) : error C2224: left of '.bytes_in_buffer' must have struct/union type
+jdphuff.c(311) : error C2065: 'get_buffer' : undeclared identifier
+jdphuff.c(311) : error C2223: left of '->bitstate' must point to struct/union
+jdphuff.c(311) : error C2223: left of '->bitstate' must point to struct/union
+jdphuff.c(312) : error C2223: left of '->saved' must point to struct/union
+jdphuff.c(316) : error C2065: 'blkn' : undeclared identifier
+jdphuff.c(317) : warning C4047: '=' : 'int ' differs in levels of indirection from 'short (*)[64]'
+jdphuff.c(319) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct jpeg_component_info *'
+jdphuff.c(320) : error C2223: left of '->derived_tbls' must point to struct/union
+jdphuff.c(320) : fatal error C1003: error count exceeds 100; stopping compilation
+NMAKE : fatal error U1077: 'cl' : return code '0x2'
+Stop.

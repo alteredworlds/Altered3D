@@ -1,0 +1,127 @@
+# Microsoft Developer Studio Generated Dependency File, included by zlib.mak
+
+..\..\..\zlib\adler32.c : \
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\compress.c : \
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\crc32.c : \
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\deflate.c : \
+	"..\..\..\zlib\deflate.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\contrib\asm386\gvmat32c.c : \
+	"..\..\..\zlib\deflate.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\gzio.c : \
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\infblock.c : \
+	"..\..\..\zlib\infblock.h"\
+	"..\..\..\zlib\infcodes.h"\
+	"..\..\..\zlib\inftrees.h"\
+	"..\..\..\zlib\infutil.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\infcodes.c : \
+	"..\..\..\zlib\infblock.h"\
+	"..\..\..\zlib\infcodes.h"\
+	"..\..\..\zlib\inffast.h"\
+	"..\..\..\zlib\inftrees.h"\
+	"..\..\..\zlib\infutil.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\inffast.c : \
+	"..\..\..\zlib\infblock.h"\
+	"..\..\..\zlib\infcodes.h"\
+	"..\..\..\zlib\inffast.h"\
+	"..\..\..\zlib\inftrees.h"\
+	"..\..\..\zlib\infutil.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\inflate.c : \
+	"..\..\..\zlib\infblock.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\inftrees.c : \
+	"..\..\..\zlib\inffixed.h"\
+	"..\..\..\zlib\inftrees.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\infutil.c : \
+	"..\..\..\zlib\infblock.h"\
+	"..\..\..\zlib\infcodes.h"\
+	"..\..\..\zlib\inftrees.h"\
+	"..\..\..\zlib\infutil.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\trees.c : \
+	"..\..\..\zlib\deflate.h"\
+	"..\..\..\zlib\trees.h"\
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\uncompr.c : \
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\..\..\zlib\zutil.c : \
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\..\zlib\zutil.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

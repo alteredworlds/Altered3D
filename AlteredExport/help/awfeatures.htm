@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>AlteredWorlds User Defined Object Properties</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<p align="left"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="4">User 
+  Defined Object Properties </font><font face="Arial"><font face="Verdana, Arial, Helvetica, sans-serif" size="3"><a href="index.htm"><font size="2">&lt;&lt;CONTENTS&lt;&lt;</font></a></font><font face="Verdana, Arial, Helvetica, sans-serif"></font></font></b></p>
+<p>Default behavior can be modified by supplying parameters in MAX's &quot;User 
+  Defined Properties&quot; for an Object or Camera. Please check the included 
+  sample scenes for examples. Some of these parameters were used to build our 
+  SaverGame - 'SpaceGnats' and worked in that context: there may be 'issues' resulting 
+  from more general usage - specifically BILLBOARD and ENVIRON. </p>
+<table width="88%" border="1">
+  <tr> 
+    <td width="63%"><b>Description:</b></td>
+    <td width="37%"><b>Usage:</b></td>
+  </tr>
+  <tr> 
+    <td width="63%">Use 'Separate Specular Color' OpenGL extension for single 
+      Object:</td>
+    <td width="37%">SPECULAR=T</td>
+  </tr>
+  <tr> 
+    <td width="63%">Disable Lighting for a single Object:</td>
+    <td width="37%">NOLIGHT=T</td>
+  </tr>
+  <tr> 
+    <td width="63%">Enable GL Materials for single Object (overide global settings)::</td>
+    <td width="37%">MATERIAL=T</td>
+  </tr>
+  <tr> 
+    <td width="63%">Prevent user rotation of Saver Camera:</td>
+    <td width="37%">LOCK=T</td>
+  </tr>
+  <tr> 
+    <td width="63%">Pick Object to be rotated by user:</td>
+    <td width="37%">MOVE=T</td>
+  </tr>
+  <tr> 
+    <td width="63%">Supply sample interval for animated mesh (overide global setting 
+      for single Object):</td>
+    <td width="37%">MESHSTEP=n</td>
+  </tr>
+  <tr> 
+    <td width="63%">For Bump Mapped object, specify single light producing the 
+      bumps: </td>
+    <td width="37%">BUMPLIGHT=name</td>
+  </tr>
+  <tr> 
+    <td width="63%" height="25"> 
+      <p>Billboard Object. About vertical axis, use 0, 1 or full rotation about 
+        object center.</p>
+    </td>
+    <td width="37%" height="25">BILLBOARD=0</td>
+  </tr>
+  <tr>
+    <td width="63%" height="25">Skybox - position relative to camera selected 
+      on export. Will then be positioned in same way relative to all cameras.</td>
+    <td width="37%" height="25">ENVIRON=T</td>
+  </tr>
+</table>
+<p><font size=2>3D Studio MAX is a Trademark of Autodesk &amp; Discreet Software.</font><br>
+  <font size="2">All other contents Copyright &copy; 2001 AlteredWorlds</font></p>
+</body>
+</html>

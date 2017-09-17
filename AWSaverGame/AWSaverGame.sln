@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AWSaverGame", "AWSaverGame.vcproj", "{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60} = {42E8057D-9F28-4FD0-A53D-CB57395EFF60}
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A} = {716AADE4-8ADF-45BE-A807-1614F5CAD08A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AW3DTools", "..\libs\AW3DTools\AW3DTools.vcproj", "{716AADE4-8ADF-45BE-A807-1614F5CAD08A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\lib-ext\zlib\nt\zlib.vcproj", "{42E8057D-9F28-4FD0-A53D-CB57395EFF60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugInRelease|Win32 = DebugInRelease|Win32
+		Release|Win32 = Release|Win32
+		Static DebugInRelease|Win32 = Static DebugInRelease|Win32
+		Static Release|Win32 = Static Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Debug|Win32.Build.0 = Debug|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.DebugInRelease|Win32.ActiveCfg = DebugInRelease|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.DebugInRelease|Win32.Build.0 = DebugInRelease|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Release|Win32.ActiveCfg = Release|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Release|Win32.Build.0 = Release|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Static DebugInRelease|Win32.ActiveCfg = Static DebugInRelease|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Static DebugInRelease|Win32.Build.0 = Static DebugInRelease|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Static Release|Win32.ActiveCfg = Static Release|Win32
+		{FCEF8F14-A110-4DFE-A5C5-7EEBC0B8F608}.Static Release|Win32.Build.0 = Static Release|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Debug|Win32.Build.0 = Debug|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.DebugInRelease|Win32.ActiveCfg = DebugInRelease|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.DebugInRelease|Win32.Build.0 = DebugInRelease|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Release|Win32.ActiveCfg = Release|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Release|Win32.Build.0 = Release|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Static DebugInRelease|Win32.ActiveCfg = Static DebugInRelease|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Static DebugInRelease|Win32.Build.0 = Static DebugInRelease|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Static Release|Win32.ActiveCfg = Static Release|Win32
+		{716AADE4-8ADF-45BE-A807-1614F5CAD08A}.Static Release|Win32.Build.0 = Static Release|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Debug|Win32.Build.0 = Debug|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.DebugInRelease|Win32.ActiveCfg = DebugInRelease|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.DebugInRelease|Win32.Build.0 = DebugInRelease|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Release|Win32.ActiveCfg = Release|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Release|Win32.Build.0 = Release|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Static DebugInRelease|Win32.ActiveCfg = Static DebugInRelease|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Static DebugInRelease|Win32.Build.0 = Static DebugInRelease|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Static Release|Win32.ActiveCfg = Static Release|Win32
+		{42E8057D-9F28-4FD0-A53D-CB57395EFF60}.Static Release|Win32.Build.0 = Static Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

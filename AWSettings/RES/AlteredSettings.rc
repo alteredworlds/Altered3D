@@ -1,0 +1,497 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "AlteredSettingsRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "AlteredSettingsRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_AWICON              ICON    DISCARDABLE     "AWIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_AWCONFIGURE3D, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_AWSAVERCONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_SCENES_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_DISPLAYSETTINGS_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_SOUNDSETTINGS_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_NAGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_AWCONTROLS_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_AWGAMEPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_CONTENTPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_AWAUTOSERIAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_AWGETSERIAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_AWUSERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_AWCONFIGURE3D DIALOG DISCARDABLE  0, 0, 180, 175
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Altered 3D Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,63,154,50,14
+    PUSHBUTTON      "Help",IDC_3DCONFIG_HELP,7,154,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,154,50,14
+    CONTROL         "Use GL_EXT_compiled_vertex_array",
+                    IDC_USE_COMPILEDVERTEXARRAYS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,100,133,10
+    CONTROL         "Use Display Lists",IDC_USE_DISPLAYLISTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,128,69,10
+    CONTROL         "Use Vertex Arrays",IDC_USE_VERTEXARRAYS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,86,72,10
+    CONTROL         "Use Bump Mapping",IDC_USE_BUMP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,25,35,81,10
+    CONTROL         "Use Cube Map Environments",IDC_USE_CUBEENV,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,20,108,10
+    GROUPBOX        "Effects",IDC_STATIC,7,7,166,62
+    GROUPBOX        "Rendering",IDC_STATIC,7,73,166,75
+    CONTROL         "Use Bump Specular Pass",IDC_USE_BUMP_SPECULAR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,50,96,10
+    CONTROL         "Use Texture Compression",IDC_USE_TEXCOMPRESS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,25,114,97,10
+END
+
+IDD_AWSAVERCONFIG DIALOG DISCARDABLE  0, 0, 209, 159
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_CENTER | 
+    WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "AlteredSaver v3.2!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Visit AlteredWorlds.com!",IDC_VISIT_ALTEREDWORLDS,7,121,
+                    95,14
+    PUSHBUTTON      "About AlteredSaver v3.2...",IDC_ABOUT_ALTEREDSAVER,107,
+                    121,95,14
+    CONTROL         "Tab1",IDC_SAVERCONFIG_TAB,"SysTabControl32",
+                    TCS_TOOLTIPS,7,7,195,109
+    DEFPUSHBUTTON   "Ok",IDOK,77,140,54,14
+    PUSHBUTTON      "Cancel",IDCANCEL,148,140,54,14
+    DEFPUSHBUTTON   "Help",IDHELP,7,140,54,14
+END
+
+IDD_SCENES_TAB DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Browse",IDC_PICK_SAVER_SCENE,149,16,30,14
+    CONTROL         " Switch to next scene after this           number of minutes -",
+                    IDC_AUTO_SCENE_SWITCH,"Button",BS_AUTOCHECKBOX | 
+                    BS_MULTILINE | WS_TABSTOP,7,38,129,17
+    EDITTEXT        IDC_SWITCH_TIMEOUT_EDIT,143,39,21,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "Spin2",IDC_SWITCH_TIMEOUT_SPIN,"msctls_updown32",
+                    UDS_WRAP | UDS_SETBUDDYINT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,167,38,11,14
+    LTEXT           "",IDC_SAVER_SCENE,7,17,136,12,SS_SUNKEN
+    LTEXT           "Scene to display:",IDC_STATIC,7,7,55,8
+    PUSHBUTTON      "Preview Saver",IDC_PREVIEWSAVER,12,64,166,14
+END
+
+IDD_DISPLAYSETTINGS_TAB DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Use current size and color depth",
+                    IDC_CURRENT_SETTINGS_CHECK,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,12,118,10
+    CONTROL         "Use mode ",IDC_SWITCH_SETTINGS_CHECK,"Button",
+                    BS_AUTORADIOBUTTON,7,27,50,10
+    COMBOBOX        IDC_DISPLAY_MODE_LIST,79,26,94,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "3D Configuration - System OpenGL",IDC_CONFIGURE3D,11,64,
+                    166,14
+END
+
+IDD_SOUNDSETTINGS_TAB DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "No sounds",IDC_NO_SOUNDS_CHECK,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,11,50,10
+    CONTROL         "Play File",IDC_LAUNCH_HELPER_CHECK,"Button",
+                    BS_AUTORADIOBUTTON,13,31,42,10
+    CONTROL         "Play Audio CD",IDC_PLAY_AUDIOCD_CHECK,"Button",
+                    BS_AUTORADIOBUTTON,79,11,61,10
+    COMBOBOX        IDC_CDROM_DRIVE,142,11,31,38,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_PICK_SAVER_WAVE,58,29,115,14
+    CONTROL         "Effects",IDC_GAME_SOUNDEFFECTS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,62,38,10
+    GROUPBOX        "Game Sounds",IDC_STATIC,7,49,170,29
+    CONTROL         "Play Game Music",IDC_GAME_MUSIC,"Button",
+                    BS_AUTORADIOBUTTON,13,62,71,10
+END
+
+IDD_NAGDLG DIALOG DISCARDABLE  0, 0, 213, 215
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_CENTER | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "AlteredSaver v3.2 - Please Register!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&BUY NOW!",IDC_BUYNOW,7,194,72,14
+    PUSHBUTTON      "&About...",IDC_ABOUT_ALTEREDSAVER,134,194,72,14
+    PUSHBUTTON      "&Close",IDOK,90,194,34,14
+    LTEXT           "days, but after this time is up AlteredSaver will only show a single, very basic 3D scene.",
+                    IDC_STATIC,7,15,199,17
+    LTEXT           "The Registration code for your copy of 'AlteredSaver v3.2!' is available for secure purchase online, as well as via phone and FAX.     ",
+                    IDC_STATIC,7,36,199,26
+    LTEXT           "Click on the 'BUY NOW!' button to go directly to our product information and purchase page to find out more.",
+                    IDC_STATIC,7,127,199,18
+    LTEXT           "This dialog will vanish automatically after 1 minute!",
+                    IDC_STATIC,29,176,158,8
+    LTEXT           "Web:\thttp://www.AlteredWorlds.com\nEmail:\tinfo@alteredworlds.com",
+                    IDC_STATIC,43,151,127,18
+    LTEXT           "No more nag dialogs - continued access to new AlteredSaver interactive 3D content - play our first SaverGame(tm) !",
+                    IDC_STATIC,7,89,199,18
+    LTEXT           "AlteredSaver v3.2 is shareware - you're welcome to try it for",
+                    IDC_STATIC,7,7,188,9
+    LTEXT           "29",IDC_DAYSLEFTTEXT,195,7,9,8
+    LTEXT           "PLEASE register AlteredSaver!   You'll be helping us to produce more 3D saver scenes and  new features!",
+                    IDC_STATIC,7,64,199,17
+    LTEXT           "We need your support to carry on producing AlteredWorlds 3D!",
+                    IDC_STATIC,7,112,199,8
+END
+
+IDD_AWCONTROLS_TAB DIALOG DISCARDABLE  0, 0, 190, 82
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Keyboard",IDC_KEY_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,23,12,46,10
+    CONTROL         "Joystick",IDC_JOY_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,124,12,41,10
+    CONTROL         "Mouse",IDC_MOUSE_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,78,12,37,10
+    CONTROL         "swap UP and DOWN",IDC_AWINVERT_Y,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,50,34,88,10
+    LTEXT           "",IDC_SCREENSHOT_FOLDER,10,63,122,13,SS_SUNKEN
+    PUSHBUTTON      "Browse...",IDC_PICK_SCREENSHOT_FOLDER,137,62,36,14
+    LTEXT           "Screen shots will end up in this folder:",IDC_STATIC,10,
+                    53,129,8
+END
+
+IDD_AWGAMEPAGE DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Use Full Screen",IDC_FULL_SCREEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,63,62,66,10
+    PUSHBUTTON      "Play Now!",IDC_PLAY_NOW,67,39,55,14
+    LTEXT           "then Hit ESCAPE to QUIT!",IDC_STATIC,145,35,30,28
+    COMBOBOX        IDC_SAVERGAME_LIST,24,14,141,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CONTENTPAGE DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_NEWSCENES,7,7,132,38,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Content?",IDC_GETNEWSCENES,145,7,38,14
+    PUSHBUTTON      "Download",IDC_GETSCENE,145,31,38,14
+    CONTROL         "Progress1",IDC_DOWNLOAD_PROGRESS,"msctls_progress32",
+                    PBS_SMOOTH | WS_BORDER,7,64,132,14
+    PUSHBUTTON      "Stop",IDC_STOP_DOWNLOAD,145,64,38,14
+    LTEXT           "Size:",IDC_SIZE_LABEL,7,52,16,8
+    LTEXT           "",IDC_TOTALSIZE,25,52,37,8
+    LTEXT           "Rate:",IDC_RATE_LABEL,68,52,18,8
+    RTEXT           "",IDC_RATE,90,52,38,8
+END
+
+IDD_AWAUTOSERIAL DIALOG DISCARDABLE  0, 0, 237, 162
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "AlteredSaver v3.2 - Activation Code"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Automatic",IDC_AUTOCHK,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,7,22,47,10
+    CONTROL         "Manual",IDC_MANUALCHK,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,7,81,39,10
+    PUSHBUTTON      "< &Back",IDC_AWBACK,55,141,50,14
+    PUSHBUTTON      "&Next >",IDC_AWNEXT,109,141,50,14
+    PUSHBUTTON      "Cancel",IDC_AWCANCEL,180,141,50,14
+    EDITTEXT        IDC_SERIALTXT,55,112,167,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Your personal Altered Activation Code is now required.",
+                    IDC_STATIC,7,7,172,8
+    LTEXT           "The name, email address and serial number you entered (and nothing else) are sent to AlteredWorlds, and we send you the correct activation code.",
+                    IDC_STATIC,55,22,175,28
+    LTEXT           "If you have difficulties with the auto install, please contact support@alteredworlds.com. Send us the EXACT name, email address and serial number.",
+                    IDC_STATIC,55,81,167,26
+    LTEXT           "Please make sure you are connected to the Internet before pressing 'Next >'",
+                    IDC_MUSTCONNECT,55,54,175,19
+END
+
+IDD_AWGETSERIAL DIALOG DISCARDABLE  0, 0, 205, 119
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Getting Altered Activation Code..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,148,96,50,14
+    LTEXT           "Transferring name, email and serial number to www.AlteredWorlds.com...",
+                    IDC_STATIC,7,7,191,17
+    LTEXT           "This process should only take a few seconds, even on a 28.8 modem.",
+                    IDC_STATIC,7,27,191,18
+    LTEXT           "If nothing seems to be happening, please make sure you're connected to the Internet correctly, then click 'Cancel' and then 'Next >' to try again.",
+                    IDC_STATIC,7,47,191,26
+    LTEXT           "Please contact support@alteredworlds.com right away if you have any problems installing this software.",
+                    IDC_STATIC,7,75,191,18
+END
+
+IDD_AWUSERINFO DIALOG DISCARDABLE  0, 0, 218, 138
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "AlteredSaver User Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAMESTR,45,38,166,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EMAILSTR,45,60,166,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DELIVERYSTR,45,82,166,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Next >",IDC_AWNEXT,103,117,50,14
+    PUSHBUTTON      "Cancel",IDC_AWCANCEL,161,117,50,14
+    PUSHBUTTON      "< &Back",IDC_AWBACK,51,117,50,14
+    LTEXT           "Name:",IDC_STATIC,7,38,22,8
+    LTEXT           "Email:",IDC_STATIC,7,60,20,8
+    LTEXT           "Serial Number:",IDC_STATIC,7,82,29,16
+    LTEXT           "Please enter your name, your email address, and the serial number you were given when you purchased this product.",
+                    IDC_STATIC,7,7,203,23
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 300
+//
+
+IDR_AWLOGO              300     DISCARDABLE     "awlogo.tnt"
+IDR_AWUPDATE            300     DISCARDABLE     "AWUpdate.exe.gz"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_AWGAMEPAGE DLGINIT
+BEGIN
+    IDC_SAVERGAME_LIST, 0x403, 30, 0
+0x6f67, 0x7053, 0x6361, 0x4765, 0x616e, 0x7374, 0x2d20, 0x7420, 0x6568, 
+0x5320, 0x7661, 0x7265, 0x6147, 0x656d, 0x0021, 
+    0
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,2,0,0
+ PRODUCTVERSION 3,2,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "AlteredWorlds\0"
+            VALUE "FileDescription", "AWSaverGame\0"
+            VALUE "FileVersion", "3, 2, 0, 0\0"
+            VALUE "InternalName", "AWSaverGame\0"
+            VALUE "LegalCopyright", "Copyright © 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AWSaverGame.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "AlteredWorlds AlteredSaver\0"
+            VALUE "ProductVersion", "3, 2, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    1                       "Altered Worlds for your screen..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

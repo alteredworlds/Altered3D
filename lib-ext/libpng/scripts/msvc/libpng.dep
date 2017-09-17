@@ -1,0 +1,97 @@
+# Microsoft Developer Studio Generated Dependency File, included by libpng.mak
+
+..\..\png.c : \
+	"..\..\..\zlib\zconf.h"\
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+.\png.rc : \
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngerror.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngget.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngmem.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngpread.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngread.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngrio.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngrtran.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngrutil.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngset.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngtrans.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngwio.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngwrite.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngwtran.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	
+
+..\..\pngwutil.c : \
+	"..\..\..\zlib\zlib.h"\
+	"..\..\png.h"\
+	"..\..\pngconf.h"\
+	

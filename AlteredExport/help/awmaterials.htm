@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Altered MAX Materials</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<p align="left"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="4">How 
+  AlteredSaver uses MAX Materials</font><font face="Verdana, Arial, Helvetica, sans-serif" size="+2"> 
+  </font><font face="Arial"><font face="Verdana, Arial, Helvetica, sans-serif" size="3"><a href="index.htm"><font size="2">&lt;&lt;CONTENTS&lt;&lt;</font></a></font><font face="Verdana, Arial, Helvetica, sans-serif"></font></font><font face="Verdana, Arial, Helvetica, sans-serif" size="+2"> 
+  </font></b></p>
+<p>AlteredWorlds' Engine doesn't (yet) use all the settings from MAX Material 
+  Editor, but does use enough of them to generate some great looking scenes. Select 
+  a material in the Material Editor - the following settings are used:</p>
+<table width="75%" border="1">
+  <tr> 
+    <td width="25%"><b><font size="+1"><a href="#basic">Basic</a></font></b></td>
+    <td width="23%"><b><font size="+1"><a href="#blinn">Blinn</a></font></b></td>
+    <td width="25%"><b><font size="+1"><a href="#opacity">Opacity</a></font></b></td>
+    <td width="27%"><b><font size="+1"><a href="#maps">Maps</a></font></b></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p><b><font size="+1"><a name="#basic"></a><font face="Verdana, Arial, Helvetica, sans-serif" size="4">Shader 
+  Basic Parameters:</font></font></b></p>
+<p><b>2-Sided</b> - used to indicate if object using this material is 2 sided 
+  or not. As an example, a flat plane with a material applied will be invisible 
+  from below the plane unless 2-Sided is checked.</p>
+<p>&nbsp;</p>
+<p><b><font size="+1"><a name="#blinn"></a><font face="Verdana, Arial, Helvetica, sans-serif" size="4">Blinn 
+  Basic Parameters:</font></font></b></p>
+<p>If exporter &#145;Materials&#146; checkbox checked, then lit objects will use 
+  the following properties:<br>
+  <b>Ambient</b>, <b>Diffuse</b>, <b>Specular</b>, <b>Shininess, Specular Highlights 
+  </b>(not 'Soften'), <b>Self-Illumination</b></p>
+<p>&nbsp;</p>
+<p> <b><a name="#opacity"></a><font size="4" face="Verdana, Arial, Helvetica, sans-serif">Opacity</font></b></p>
+<p>Used whether 'Materials' checkbox selected or not.<br>
+  In general, transparency achieved via alpha-blending. Alpha values may be supplied 
+  directly in the texture, or a constant value may be supplied for the whole texture 
+  using the <b>Opacity</b> setting in the Blinn Basic Parameters rollout. The 
+  Opacity setting is used as follows:<br>
+  (i) Texture has no alpha, Opacity setting supplies a constant value for the 
+  texture (of Opacity/100.0).<br>
+  (ii) Texture has alpha values: Opacity setting multiplied withalpha values from 
+  the texture to produce a final alpha value for each pixel.<br>
+  If the Opacity is left at 100%, then alpha values are derived from the Texture. 
+  Note that the texture alpha can be derived from the pixel RGB values - the exporter 
+  honours the '<b>Alpha Source</b>' selection in the '<b>Bitmap Parameters</b>' 
+  rollout for a <b>Map</b>, so you can pick RGB Intensity as the alpha source.</p>
+<p><b>Sample code - exporter determination of pixel alpha value:</b><br>
+  float alphaFac = Opacity / 100.0f;<br>
+  float alphaValue = (unsigned char)255;<br>
+  if (alphaFromRGB) { //use simple average<br>
+  alphaValue = ((float)(r + g + b )) / 3.0f;<br>
+  }<br>
+  else if (useAlpha) {<br>
+  alphaValue = (float)((unsigned char)(a &gt;&gt; 8));<br>
+  }<br>
+  alphaValue *= alphaFac;<br>
+  *destPixelPtr++ = (unsigned char)alphaValue</p>
+<p>&nbsp;</p>
+<p><b><font size="+1"><a name="#maps"></a><font face="Verdana, Arial, Helvetica, sans-serif" size="4">Maps</font></font></b></p>
+<p>So here's the fun part... Altered Exporter takes its image data directly from 
+  MAX and stores all 'textures' embedded in the TNT scene file. Any image/file 
+  that MAX understands is available to the exporter, including animated textures 
+  and procedural maps.</p>
+<p>The exporter will grab textures from the <b>Diffuse Color</b> and <b>Reflection</b> 
+  slots. The most tested Map types are <b>Bitmap</b> and <b>Reflect/Refract</b> 
+  but almost any map type should work, including <b>Adobe Photoshop Plug-in Filters</b>. 
+</p>
+<p>For<b> animated textures</b>, the exporter allows you to pick the <b>frame 
+  step</b> you'd like. Selecting a value of 5 means that every 5th frame will 
+  be sampled, starting from the first frame of the source. Note that animated 
+  textures drive up the final TNT file size rather quickly, as there is currently 
+  no inter-frame compression in the stored data. More optimal forms of data storage 
+  will be integrated into AW engine soon - optionally internal or external [to 
+  TNT file] storage of data in AVI or a suitable cross-platform format.</p>
+<p><b><font face="Verdana, Arial, Helvetica, sans-serif">MAX Bitmaps</font></b><br>
+  Usage should be pretty straightforward. As described above, 'Alpha Source' settings 
+  are honoured. All texture coordinate mappings should also work without any problems 
+  - the exporter simply grabs the end results from MAX as per-vertex coordinates. 
+  At the moment, only a single Map Channel is supported - but our engine is designed 
+  to use multiple map channels.</p>
+<p><b><font face="Verdana, Arial, Helvetica, sans-serif">Reflect/Refract Maps</font></b><br>
+  Can be used in the <b>Diffuse Slot</b> (where it obviously becomes the diffuse 
+  texture on an object) or in the <b>Reflection Slot </b>where it will be mixed 
+  (via multi-texturing, if available) with any diffuse map. Altered Exporter will 
+  take all environment map information from 3D Studio MAX seamlessly, if the correct 
+  settings are used, as follows:</p>
+<p><b>Reflect/Refract Settings</b>: Pick Source: 'From File'. Go to the bottom 
+  of the rollout and supply a filename in the section: 'Render Cubic Map Files' 
+  To File:<br>
+  When the scene is ready, get MAX to render the cube maps for you via the 'Pick 
+  Object and Render Maps' button. Altered Exporter will then grab these textures 
+  for the cube map without any further work from the artist. Environment mapping 
+  texture coordinates are generated via OpenGL in AlteredWorlds' engine, and so 
+  no map channel needs to be associated with this Reflect/Refract Map. <br>
+  <font face="Verdana, Arial, Helvetica, sans-serif"><b>COMING SOON</b>: </font>As 
+  soon as we find the time to implement the designs, AlteredSaver will support 
+  auto-generating cube environment textures, using settings straight from MAX...</p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif" size="4">Bump Mapping<br>
+  </font>Still experimental, but you can already get a fun effect. Just put a 
+  texture in the MAX Material Editor Bump slot. Use the 'Amount' spinner to change 
+  the bump height - both positive and negative values are valid. Our bump mapping 
+  algorithm uses ONE light to generate the bumps - so you'll need to put at least 
+  one light in the scene. Then set a user defined property on the bump mapped 
+  object, giving the name of the light - see our example scene 'PlayHouse.max' 
+  for an example. The property is: BUMPLIGHT=name. Your results may vary - the 
+  most important factor is to use <b>SAME SIZED TEXTURES</b> in the <b>DIFFUSE</b> 
+  and <b>BUMP</b> slots.<font face="Verdana, Arial, Helvetica, sans-serif" size="4"> 
+  </font></p>
+<p></p>
+<p></p>
+<p><font size=2>3D Studio MAX is a Trademark of Autodesk &amp; Discreet Software.</font><br>
+  <font size="2">All other contents Copyright &copy; 2001 AlteredWorlds</font></p>
+</body>
+</html>

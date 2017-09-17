@@ -1,0 +1,33 @@
+HKCR
+{
+	AlteredX.AlteredXCtl.1 = s 'AlteredXCtl Class'
+	{
+		CLSID = s '{8F2AFB98-BD3B-44EB-99EB-68A7F432C936}'
+		'Insertable'
+	}
+	AlteredX.AlteredXCtl = s 'AlteredXCtl Class'
+	{
+		CLSID = s '{8F2AFB98-BD3B-44EB-99EB-68A7F432C936}'
+		CurVer = s 'AlteredX.AlteredXCtl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8F2AFB98-BD3B-44EB-99EB-68A7F432C936} = s 'AlteredXCtl Class'
+		{
+			ProgID = s 'AlteredX.AlteredXCtl.1'
+			VersionIndependentProgID = s 'AlteredX.AlteredXCtl'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove 'Control'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 101'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '131473'
+			}
+			'TypeLib' = s '{EDF03087-4D02-4F22-9CFF-8EC10125EDB3}'
+			'Version' = s '1.0'
+		}
+	}
+}

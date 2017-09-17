@@ -1,0 +1,365 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_AWICON              ICON    DISCARDABLE     "AWIcon.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 300
+//
+
+IDR_AWLOGO              300     DISCARDABLE     "awlogo.tnt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_AWCONFIGURE3D, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_AWGETWORLD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_AWNEWWORLDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_AWSAVERCONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_SCENES_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_DISPLAYSETTINGS_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_SOUNDSETTINGS_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_NAGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_AWCONTROLS_TAB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_AWGAMEPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_AWCONFIGURE3D DIALOG DISCARDABLE  0, 0, 180, 137
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Altered 3D Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "If more than one way of showing our 3D stuff is detected on your machine, you may choose between the available options below.",
+                    IDC_GL_TEXT,7,7,166,28
+    COMBOBOX        IDC_RENDERMETHOD_LIST,7,39,166,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "OK",IDOK,65,116,50,14
+    PUSHBUTTON      "Help",IDC_3DCONFIG_HELP,7,116,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,116,50,14
+    CONTROL         "Use GL_EXT_compiled_vertex_array",
+                    IDC_USE_COMPILEDVERTEXARRAYS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,36,79,133,10
+    CONTROL         "Use Display Lists",IDC_USE_DISPLAYLISTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,36,96,69,10
+    CONTROL         "Use Vertex Arrays",IDC_USE_VERTEXARRAYS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,36,62,72,10
+END
+
+IDD_AWGETWORLD DIALOG DISCARDABLE  0, 0, 209, 66
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+CAPTION "Retrieving Scene from AlteredWorlds.com..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,152,45,50,14
+    CONTROL         "Progress1",IDC_DOWNLOAD_PROGRESS,"msctls_progress32",
+                    PBS_SMOOTH | WS_BORDER,7,22,195,14
+    LTEXT           "Scene:",IDC_STATIC,7,7,24,8
+    LTEXT           "",IDC_SCENENAME,31,7,155,8
+    LTEXT           "Size:",IDC_STATIC,7,48,16,8
+    LTEXT           "",IDC_TOTALSIZE,25,48,37,8
+    LTEXT           "Rate:",IDC_STATIC,68,48,18,8
+    RTEXT           "",IDC_RATE,90,48,38,8
+END
+
+IDD_AWNEWWORLDS DIALOG DISCARDABLE  0, 0, 209, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New 3D Content from AlteredWorlds.com...!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_NEWSCENES,7,20,138,55,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Get Scene!",IDC_GETSCENES,152,20,50,14
+    DEFPUSHBUTTON   "Help",IDHELP,152,40,50,14
+    PUSHBUTTON      "Close",IDOK,152,60,50,14
+    LTEXT           "Please select a scene to download:",IDC_STATIC,7,7,113,
+                    8
+END
+
+IDD_AWSAVERCONFIG DIALOG DISCARDABLE  0, 0, 209, 159
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_CENTER | 
+    WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "AlteredSaver v3.0 Beta Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Visit AlteredWorlds.com!",IDC_VISIT_ALTEREDWORLDS,7,121,
+                    95,14
+    PUSHBUTTON      "About AlteredSaver v3.0...",IDC_ABOUT_ALTEREDSAVER,107,
+                    121,95,14
+    CONTROL         "Tab1",IDC_SAVERCONFIG_TAB,"SysTabControl32",
+                    TCS_TOOLTIPS,7,7,195,109
+    DEFPUSHBUTTON   "OK",IDOK,77,140,54,14
+    PUSHBUTTON      "Cancel",IDCANCEL,148,140,54,14
+    DEFPUSHBUTTON   "Help",IDHELP,7,140,54,14
+END
+
+IDD_SCENES_TAB DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Browse",IDC_PICK_SAVER_SCENE,149,16,30,14
+    CONTROL         " Switch to next scene after this           number of minutes -",
+                    IDC_AUTO_SCENE_SWITCH,"Button",BS_AUTOCHECKBOX | 
+                    BS_MULTILINE | WS_TABSTOP,7,38,129,17
+    EDITTEXT        IDC_SWITCH_TIMEOUT_EDIT,143,39,21,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "Spin2",IDC_SWITCH_TIMEOUT_SPIN,"msctls_updown32",
+                    UDS_WRAP | UDS_SETBUDDYINT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,167,38,11,14
+    LTEXT           "",IDC_SAVER_SCENE,7,17,136,12,SS_SUNKEN
+    LTEXT           "Scene to display:",IDC_STATIC,7,7,55,8
+    PUSHBUTTON      "Check AlteredWorlds.com for new 3D scenes!",
+                    IDC_GETNEWSCENES,12,64,166,14
+END
+
+IDD_DISPLAYSETTINGS_TAB DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Use current size and color depth",
+                    IDC_CURRENT_SETTINGS_CHECK,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,12,118,10
+    CONTROL         "Switch to mode ",IDC_SWITCH_SETTINGS_CHECK,"Button",
+                    BS_AUTORADIOBUTTON,7,27,67,10
+    COMBOBOX        IDC_DISPLAY_MODE_LIST,79,26,94,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "3D Configuration - System OpenGL",IDC_CONFIGURE3D,11,64,
+                    166,14
+END
+
+IDD_SOUNDSETTINGS_TAB DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "No sounds",IDC_NO_SOUNDS_CHECK,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,7,12,50,10
+    CONTROL         "Play wave file",IDC_PLAY_WAVE_CHECK,"Button",
+                    BS_AUTORADIOBUTTON,7,26,59,10
+    CONTROL         "Launch helper to play file [mp3, midi]",
+                    IDC_LAUNCH_HELPER_CHECK,"Button",BS_AUTORADIOBUTTON,7,40,
+                    130,10
+    CONTROL         "Play Audio CD",IDC_PLAY_AUDIOCD_CHECK,"Button",
+                    BS_AUTORADIOBUTTON,79,12,61,10
+    COMBOBOX        IDC_CDROM_DRIVE,142,11,31,38,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Browse",IDC_PICK_SAVER_WAVE,143,58,30,14
+    LTEXT           "",IDC_SAVER_WAVE,8,58,130,12,SS_SUNKEN
+END
+
+IDD_NAGDLG DIALOG DISCARDABLE  0, 0, 213, 189
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "AlteredSaver v3.0 - Please Register!"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&BUY NOW!",IDC_BUYNOW,7,168,72,14
+    PUSHBUTTON      "&About...",IDC_ABOUT_ALTEREDSAVER,134,168,72,14
+    PUSHBUTTON      "&Close",IDOK,90,168,34,14
+    LTEXT           "days, but after this time is up AlteredSaver will only show a black screen.",
+                    IDC_STATIC,7,15,199,17
+    LTEXT           "The Registered version of 'AlteredSaver v2.2 - SaverGame(tm) Release' is available for secure purchase and download online.",
+                    IDC_STATIC,7,36,199,18
+    LTEXT           "Click on the 'BUY NOW!' button to go directly to the product information and purchase page to find out more...",
+                    IDC_STATIC,7,91,199,19
+    LTEXT           "This dialog will vanish automatically after 1 minute!",
+                    IDC_STATIC,27,147,158,8
+    LTEXT           "Web:\thttp://www.AlteredWorlds.com\nEmail:\tinfo@alteredworlds.com",
+                    IDC_STATIC,43,118,127,18
+    LTEXT           "You'll get six playable SaverGame(tm) levels, two animated 3D transitions and a bonus scene if you finish the game. Of course, you'll also get to keep this improved version of AlteredSaver! ",
+                    IDC_STATIC,7,59,199,26
+    LTEXT           "AlteredSaver v3.0 is shareware - you're welcome to run it for",
+                    IDC_STATIC,7,7,188,9
+    LTEXT           "29",IDC_DAYSLEFTTEXT,197,7,9,8
+END
+
+IDD_AWCONTROLS_TAB DIALOG DISCARDABLE  0, 0, 190, 82
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Keyboard",IDC_KEY_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,23,12,46,10
+    CONTROL         "Joystick",IDC_JOY_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,124,12,41,10
+    CONTROL         "Mouse",IDC_MOUSE_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,78,12,37,10
+    CONTROL         "swap UP and DOWN",IDC_AWINVERT_Y,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,50,34,88,10
+    LTEXT           "",IDC_SCREENSHOT_FOLDER,10,63,122,13,SS_SUNKEN
+    PUSHBUTTON      "Browse...",IDC_PICK_SCREENSHOT_FOLDER,137,62,36,14
+    LTEXT           "Screen shots will end up in this folder:",IDC_STATIC,10,
+                    53,129,8
+END
+
+IDD_AWGAMEPAGE DIALOG DISCARDABLE  0, 0, 190, 85
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Use Full Screen",IDC_FULL_SCREEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,61,59,66,10
+    PUSHBUTTON      "Play Now!",IDC_PLAY_NOW,67,35,55,14
+    LTEXT           "goSpaceGnats - the SaverGame!",IDC_STATIC,41,14,106,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    1                       "Altered Worlds for your screen..."
+    IDS_OGL_NAME            "3dfxvgl.dll"
+END
+
+
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

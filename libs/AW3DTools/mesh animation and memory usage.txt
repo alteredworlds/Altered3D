@@ -1,0 +1,38 @@
+after loading an animated mesh, we screw around with the apparent data ownership as follows:
+
+
+for frames that do not have any data in a specific field, eg color verts
+
+this could in fact be because this field is not animated and so the data is just stored once, with the initial frame.
+
+this frame is then able to USE this color vert data by referencing the in-memory data as follows:
+
+if (!m_colVerts.getNum())
+{
+   m_colVerts.shallowCopyOf(startFrame.m_colVerts);
+}
+//the problem arises with the following call:
+
+if (!nextMesh.m_tVerts.getNum())
+{
+   m_tVerts.shallowCopyOf(startFrame.m_tVerts);
+}
+//and the subsequent call to init, which builds the 
+//tangent space basis matrix for each frame as well as initialising the 
+//TEXTURE COORDINATE collections.
+init(0.0f);
+
+for a bump-mapped mesh this will call buildTextureSpace and will insert 
+2 new collections as follows: AWTVertexList(nVerts, 3) to hold the calculated
+set of float[3] values for the frame [light vectors, half-angle vectors]
+
+
+CHOICE:
+
+Can we use one single buffer (on the first frame) for each AnimatedMesh?
+
+note that we have a problem here - this interpolation won't work for 
+objects that share animated meshes. Need to pass the BUFFER in?
+
+For buffered case we are calling the function on the buffer!
+m_curMesh IS the buffer!
